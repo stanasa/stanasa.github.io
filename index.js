@@ -61,7 +61,8 @@ function getUrlFromUsername( site, username ) {
         dribbble: 'dribbble.com',
         facebook: 'facebook.com',
         angellist: 'angel.co',
-        bitbucket: 'bitbucket.org'
+        bitbucket: 'bitbucket.org',
+        skype: 'none'
     };
 
     site = site.toLowerCase();
@@ -90,18 +91,22 @@ function render(resume) {
                         "codepen", "foursquare", "reddit", "spotify",
                         "dribble", "dribbble", "facebook", "angellist",
                         "bitbucket", "skype"],
-        date_format = 'MMM, YYYY';
+        date_format = 'MMM YYYY';
+        input_date_format = 'YYYY-MM-DD';
 
     if (!resume.basics.picture && hasEmail(resume)) {
         resume.basics.picture = gravatar.url(resume.basics.email.replace('(at)', '@'), {
-            s: '100',
+            s: '150',
             r: 'pg',
             d: 'mm'
         });
     }
 
     if ( resume.languages ) {
-        resume.basics.languages = _.pluck( resume.languages, 'language' ).join( ', ' );
+        // resume.basics.languages = _.pluck( resume.languages, 'language' ).join( ', ' );
+        resume.basics.languages = _.map( resume.languages, function (entry) {
+            return entry.language + ' [' + entry.fluency + ']';
+        }).join( ', ' );
     }
     _.each( resume.work, function( work_info ) {
         var did_leave_company,
@@ -161,7 +166,7 @@ function render(resume) {
 
     _.each( resume.awards, function( award_info ) {
         if ( award_info.date ) {
-            award_info.date = moment( new Date( award_info.date ) ).format( 'MMM DD, YYYY' )
+            award_info.date = moment( new Date( award_info.date ) ).format( 'YYYY' )
         }
     });
 
@@ -179,6 +184,12 @@ function render(resume) {
                 volunteer_info[ date ] = moment( date_obj ).format( date_format );
             }
         });
+    });
+
+    _.each( resume.references, function( reference_info ) {
+        if ( reference_info.date ) {
+            reference_info.date = moment( new Date( reference_info.date ) ).format( date_format );
+        }
     });
 
     _.each( social_sites, function( site ) {

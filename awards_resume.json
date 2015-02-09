@@ -1,0 +1,37 @@
+    "awards": [{
+        "title": "Who's Who in America",
+        "date": "2009-01-01",
+        "awarder": "Marquis Who's Who"
+    },{
+        "title": "Membership",
+        "date": "2008-01-01",
+        "awarder": "Golden Key International Honor Society"
+    },{
+        "title": "Strathmore's Who's Who in Business, Industry and Government",
+        "date": "2007",
+        "awarder": "Strathmore's Who's Who"
+    },{
+        "title": "AMS/MAA Math Award",
+        "date": "2001-05-22",
+        "awarder": "Loyola University New Orleans"
+    },{
+        "title": "Outstanding Math Major Award",
+        "date": "2001-05-22",
+        "awarder": "Loyola University New Orleans"
+    },{
+        "title": "St. Ignatius Loyola Scholarship",
+        "date": "1997-09-01",
+        "awarder": "Loyola University New Orleans"
+    },{
+        "title": "Amateur Radio License KC5PZE (Technician Plus)",
+        "date": "2005-01-01",
+        "awarder": "Federal Communications Commission"
+    },{
+        "title": "Shodan (First Degree Black Belt), Judo",
+        "date": "2003-01-01",
+        "awarder": "Kodokan International"
+    },{
+        "title": "Eagle Scout Rank",
+        "date": "1994-01-01",
+        "awarder": "Boy Scouts of America"
+    }],

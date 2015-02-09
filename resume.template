@@ -40,40 +40,32 @@
             <li>
               <a href="#about">
                 <i class="fa fa-user"></i>
-                About
+                Who are you? [Summary]
               </a>
             </li>
             <li>
               <a href="#work-experience">
                 <i class="fa fa-building"></i>
-                Work Experience
+                What have you done? [Experience]
               </a>
             </li>
             <li>
               <a href="#skills">
                 <i class="fa fa-code"></i>
-                Skills
+                What can you do? [Skills]
               </a>
             </li>
             <li>
               <a href="#education">
                 <i class="fa fa-mortar-board"></i>
-                Education
+                What have you learned? [Education]
               </a>
             </li>
-            {{#if resume.awards}}
-              <li>
-                <a href="#awards">
-                  <i class="fa fa-trophy"></i>
-                  Awards
-                </a>
-              </li>
-            {{/if}}
             {{#if resume.volunteer}}
               <li>
                 <a href="#volunteer-work">
                   <i class="fa fa-child"></i>
-                  Volunteer Work
+                  What causes have you helped? [Volunteering]
                 </a>
               </li>
             {{/if}}
@@ -81,7 +73,15 @@
               <li>
                 <a href="#publications">
                   <i class="fa fa-book"></i>
-                  Publications
+                  What have you published? [Talks &amp; Papers]
+                </a>
+              </li>
+            {{/if}}
+            {{#if resume.awards}}
+              <li>
+                <a href="#awards">
+                  <i class="fa fa-trophy"></i>
+                  What recognition have you earned? [Awards]
                 </a>
               </li>
             {{/if}}
@@ -89,7 +89,7 @@
               <li>
                 <a href="#interests">
                   <i class="fa fa-heart"></i>
-                  Interests
+                  What do you enjoy? [Interests]
                 </a>
               </li>
             {{/if}}
@@ -97,7 +97,7 @@
               <li>
                 <a href="#references">
                   <i class="fa fa-thumbs-up"></i>
-                  References
+                  Who can vouch for you? [Testimonials]
                 </a>
               </li>
             {{/if}}
@@ -177,9 +177,9 @@
               <hr>
 
               <div class="social-links text-center">
-                {{#if linkedin_url}}
-                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
-                       href="{{linkedin_url}}" target="_blank"></a>
+                {{#if website}}
+                  <a class="fa fa-rss fa-2x social-link link-blog"
+                       href="{{website}}" target="_blank"></a>
                 {{/if}}
                 {{#if github_url}}
                   <a class="fa fa-github fa-2x social-link link-github"
@@ -195,13 +195,17 @@
                 {{#if codepen_url}}
                   <a class="fa fa-codepen fa-2x social-link link-codepen" href="{{codepen_url}}" target="_blank"></a>
                 {{/if}}
-                {{#if skype_url}}
-                  <a class="fa fa-skype fa-2x social-link link-skype"
-                       href="{{skype_url}}" target="_blank"></a>
+                {{#if linkedin_url}}
+                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
+                       href="{{linkedin_url}}" target="_blank"></a>
                 {{/if}}
                 {{#if twitter_url}}
                   <a class="fa fa-twitter fa-2x social-link link-twitter"
                        href="{{twitter_url}}" target="_blank"></a>
+                {{/if}}
+                {{#if skype_url}}
+                  <a class="fa fa-skype fa-2x social-link link-skype"
+                       href="{{skype_url}}" target="_blank"></a>
                 {{/if}}
                 {{#if facebook_url}}
                   <a class="fa fa-facebook-square fa-2x social-link link-facebook" href="{{facebook_url}}" target="_blank"></a>
@@ -209,10 +213,6 @@
                 {{#if soundcloud_url}}
                   <a class="fa fa-soundcloud fa-2x social-link link-soundcloud"
                        href="{{soundcloud_url}}" target="_blank"></a>
-                {{/if}}
-                {{#if website}}
-                  <a class="fa fa-rss fa-2x social-link link-blog"
-                       href="{{website}}" target="_blank"></a>
                 {{/if}}
                 {{#if pinterest_url}}
                   <a class="fa fa-pinterest fa-2x social-link link-pinterest" href="{{pinterest_url}}" target="_blank"></a>
@@ -248,18 +248,15 @@
 
         <section class="col-md-9 card-wrapper pull-right">
           <div class="card background-card">
-            <h4 class="text-uppercase text-bolder">Background</h4>
-            <hr>
-
             <div class="background-details">
               <div class="detail" id="about">
                 <div class="icon">
                   <i class="fa fa-lg fa-user"></i>
-                  <span class="mobile-title">About</span>
+                  <span class="mobile-title">Who are you?</span>
                 </div>
                 <div class="info">
                   <h4 class="title text-uppercase">
-                    About
+                    Who are you? <span class="grey">Summary</span>
                   </h4>
 
                   <div class="content" itemprop="description">
@@ -271,11 +268,11 @@
               <div class="detail" id="work-experience">
                 <div class="icon">
                   <i class="fa fa-lg fa-building"></i>
-                  <span class="mobile-title">Work Experience</span>
+                  <span class="mobile-title">What have you done?</span>
                 </div>
                 <div class="info">
                   <h4 class="title text-uppercase">
-                    Work Experience
+                    What have you done? <span class="grey">Experience</span>
                   </h4>
 
                   <ul class="list-unstyled">
@@ -353,11 +350,11 @@
               <div class="detail" id="skills">
                 <div class="icon">
                   <i class="fa fa-lg fa-code"></i>
-                  <span class="mobile-title">Skills</span>
+                  <span class="mobile-title">What can you do?</span>
                 </div>
                 <div class="info">
                   <h4 class="title text-uppercase">
-                    Skills
+                    What can you do? <span class="grey">Skills</span>
                   </h4>
 
                   <div class="content">
@@ -389,11 +386,11 @@
               <div class="detail" id="education">
                 <div class="icon">
                   <i class="fa fa-lg fa-mortar-board"></i>
-                  <span class="mobile-title">Education</span>
+                  <span class="mobile-title">What have you learned?</span>
                 </div>
                 <div class="info">
                   <h4 class="title text-uppercase">
-                    Education
+                    What have you learned? <span class="grey">Education</span>
                   </h4>
 
                   <div class="content">
@@ -402,7 +399,12 @@
                         <li class="card card-nested">
                           <div class="content has-sidebar">
                             <p class="clear-margin-sm">
-                              <strong>{{area}}, {{studyType}}</strong>,&nbsp;
+                              <strong>{{studyType}}</strong>
+                            </p>
+                            <p class="clear-margin-sm">
+                              <strong>{{area}}</strong>
+                            </p>
+                            <p class="clear-margin-sm">
                               {{institution}}
                             </p>
                             <p class="visible-xs visible-sm text-muted">
@@ -445,56 +447,15 @@
                 </div>
               </div>
 
-              {{#if resume.awards}}
-                <div class="detail" id="awards">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-trophy"></i>
-                    <span class="mobile-title">Awards</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Awards
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                        {{#each resume.awards}}
-                          <li class="card card-nested">
-                            <div class="content has-sidebar">
-                              <p class="clear-margin-sm" itemprop="award">
-                                <strong>{{title}}</strong>,&nbsp;
-                                {{awarder}}
-                              </p>
-                              <p class="visible-xs visible-sm text-muted">
-                                <small>
-                                  Awarded on: {{date}}
-                                </small>
-                              </p>
-                              <p class="clear-margin"> {{summary}} </p>
-                            </div>
-                            <div class="sidebar text-muted text-center hidden-xs hidden-sm">
-                              <p>
-                                <strong>Awarded on:</strong>&nbsp;
-                                {{date}}
-                              </p>
-                            </div>
-                          </li>
-                        {{/each}}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              {{/if}}
-
               {{#if resume.volunteer}}
                 <div class="detail" id="volunteer-work">
                   <div class="icon">
                     <i class="fa fa-lg fa-child"></i>
-                    <span class="mobile-title">Volunteer Work</span>
+                    <span class="mobile-title">What causes have you helped?</span>
                   </div>
                   <div class="info">
                     <h4 class="title text-uppercase">
-                      Volunteer Work
+                      What causes have you helped?  <span class="grey">Volunteering</span>
                     </h4>
 
                     <div class="content">
@@ -555,11 +516,11 @@
                 <div class="detail" id="publications">
                   <div class="icon">
                     <i class="fa fa-lg fa-book"></i>
-                    <span class="mobile-title">Publications</span>
+                    <span class="mobile-title">What have you published?</span>
                   </div>
                   <div class="info">
                     <h4 class="title text-uppercase">
-                      Publications
+                      What have you published? <span class="grey">Talks &amp; Papers</span>
                     </h4>
 
                     <div class="content">
@@ -577,17 +538,73 @@
                                 </strong>,&nbsp;
                                 {{publisher}}
                               </p>
+                              {{#if links}}
+                              <p class="clear-margin-sm">
+                              {{#if links.slides}}
+                                <a href="{{links.slides}}" target="_blank">View slides online</a>
+                              {{/if}}
+                              {{#if links.materials}}
+                                {{#if links.slides}}<span class="link-separator">&bullet;</span>{{/if}}
+                                <a href="{{links.materials}}" target="_blank">View materials online</a>
+                              {{/if}}
+                              {{#if links.paper}}
+                                {{#if links.materials}}<span class="link-separator">&bullet;</span>{{/if}}
+                                <a href="{{links.paper}}" target="_blank">View paper online</a>
+                              {{/if}}
+                              </p>
+                              {{/if}}
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Published on: {{releaseDate}}
+                                  Published: {{releaseDate}}
                                 </small>
                               </p>
                               <p class="clear-margin">{{summary}}</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                <strong>Published on:</strong>&nbsp;
+                                <strong>Published:</strong>&nbsp;
                                 {{releaseDate}}
+                              </p>
+                            </div>
+                          </li>
+                        {{/each}}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              {{/if}}
+
+              {{#if resume.awards}}
+                <div class="detail" id="awards">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-trophy"></i>
+                    <span class="mobile-title">What recognition have you earned?</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      What recognition have you earned? <span class="grey">Awards</span>
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                        {{#each resume.awards}}
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm" itemprop="award">
+                                <strong>{{title}}</strong>,&nbsp;
+                                {{awarder}}
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Awarded: {{date}}
+                                </small>
+                              </p>
+                              <p class="clear-margin"> {{summary}} </p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                              <p>
+                                <strong>Awarded:</strong>&nbsp;
+                                {{date}}
                               </p>
                             </div>
                           </li>
@@ -602,29 +619,19 @@
                 <div class="detail" id="interests">
                   <div class="icon">
                     <i class="fa fa-lg fa-heart"></i>
-                    <span class="mobile-title">Interests</span>
+                    <span class="mobile-title">What do you enjoy</span>
                   </div>
                   <div class="info">
                     <h4 class="title text-uppercase">
-                      Interests
+                      What do you enjoy? <span class="grey">Interests</span>
                     </h4>
 
                     <div class="content">
-                      <ul class="list-unstyled">
+                      <div class="space-top labels">
                         {{#each resume.interests}}
-                          <li class="card card-nested">
-                            <p>
-                              <strong>{{name}}</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                              {{#keywords}}
-                                <span class="label label-keyword">{{.}}</span>
-                              {{/keywords}}
-                            </div>
-                          </li>
+                          <span class="label label-keyword">{{.}}</span>
                         {{/each}}
-                      </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -634,11 +641,11 @@
                 <div class="detail" id="references">
                   <div class="icon">
                     <i class="fa fa-lg fa-thumbs-up"></i>
-                    <span class="mobile-title">References</span>
+                    <span class="mobile-title">Who can vouch for you?</span>
                   </div>
                   <div class="info">
                     <h4 class="title text-uppercase">
-                      References
+                      Who can vouch for you? <span class="grey">Testimonials</span>
                     </h4>
 
                     <div class="content">
@@ -646,7 +653,8 @@
                         {{#each resume.references}}
                           <li class="card card-nested">
                             <p>
-                              <strong>{{name}}</strong>
+                              <a href="{{profile}}"><strong>{{name}}</strong></a>, 
+                              {{date}} ({{relationship}})
                             </p>
                             <blockquote class="quote">
                               <p class="clear-margin">{{reference}}</p>

@@ -7,8 +7,11 @@
 @theme-yellow: #f1c40f;
 @theme-green: #5cb85c;
 
-//Icon styles
-@icon-color: #707070;
+// @font-size-base: 32px;
+
+//** Global textual link color.
+@link-color:            darken(@theme-green, 15%);
+@link-hover-color:      darken(@link-color, 20%);
 
 // card variables
 @card-bg: white;
@@ -42,5 +45,10 @@
 @skill-master-color: @theme-green;
 
 // Label styles
-@theme-label-bg: lighten(@theme-blue, 15%);
+@theme-label-bg: darken(@theme-green, 15%);
 @theme-label-border-color: darken(@theme-label-bg, 20%);
+
+//Icon styles
+//@icon-color: #707070;
+@icon-color: @theme-label-bg;
+

@@ -7,6 +7,14 @@ body {
     color: @theme-font-color;
 }
 
+a {
+    color: @link-color;
+}
+
+a:hover {
+    color: @link-hover-color;
+}
+
 .main {
     padding: 5px;
 }
@@ -28,6 +36,11 @@ body {
     @media (max-width: @screen-phone) {
         padding: 5px 0;
     }
+}
+
+.link-separator {
+    color: lighten(@theme-font-color, 30%);
+    font-size: 0.8em;
 }
 
 .background-card {
@@ -65,6 +78,14 @@ body {
             color: @icon-color;
         }
 
+        .title {
+            .grey {
+                color: @theme-font-color;
+                font-size: 0.8em;
+                padding-left: 20px;
+            }
+        }
+
         .mobile-title {
             display: none;
             @media (max-width: @screen-phone) {
@@ -73,6 +94,9 @@ body {
                 font-weight: bold;
                 text-transform: uppercase;
                 vertical-align: middle;
+                .grey {
+                    color: @theme-font-color;
+                }
             }
         }
 

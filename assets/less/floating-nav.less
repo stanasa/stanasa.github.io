@@ -3,7 +3,7 @@
 */
 
 .floating-nav-trigger {
-    @color: darken(@theme-label-bg, 20%);
+    @color: @theme-label-bg; // darken(@theme-label-bg, 20%);
     .square(50px);
     .box-shadow(0 1px 4px rgba(0, 0, 0, 0.24));
     .transition(background-color 0.5s ease);
@@ -16,7 +16,7 @@
     color: @color;
     z-index: 100;
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     right: 10px;
 
     .close-icon {
@@ -45,14 +45,14 @@
 
 .floating-nav {
     .scale(0);
-    .transform-origin(100% 100%);
+    .transform-origin(100% 0%);
     .transition(transform 0.3s, visibility 0s 0.3s;);
-    @color: darken(@theme-label-bg, 20%);
+    @color: @theme-label-bg; // darken(@theme-label-bg, 20%);
     .box-shadow(0 1px 4px rgba(0, 0, 0, 0.24));
     position: fixed;
     z-index: 50;
     right: 10px;
-    bottom: 10px;
+    top: 10px;
     background-color: white;
     width: 90%;
     max-width: 400px;
