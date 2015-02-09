@@ -541,28 +541,34 @@
                               {{#if links}}
                               <p class="clear-margin-sm">
                               {{#if links.slides}}
-                                <a href="{{links.slides}}" target="_blank">View slides online</a>
+                                <a href="{{links.slides}}" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
                               {{/if}}
                               {{#if links.materials}}
                                 {{#if links.slides}}<span class="link-separator">&bullet;</span>{{/if}}
-                                <a href="{{links.materials}}" target="_blank">View materials online</a>
+                                <a href="{{links.materials}}" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
                               {{/if}}
                               {{#if links.paper}}
                                 {{#if links.materials}}<span class="link-separator">&bullet;</span>{{/if}}
-                                <a href="{{links.paper}}" target="_blank">View paper online</a>
+                                <a href="{{links.paper}}" target="_blank">
+                                <i class="fa fa-lg fa-file-text-o"></i>
+                                View paper online</a>
                               {{/if}}
                               </p>
                               {{/if}}
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Published: {{releaseDate}}
+                                  {{#if isTalk}}Given{{/if}}{{#if isPaper}}Published{{/if}}: {{releaseDate}}
                                 </small>
                               </p>
                               <p class="clear-margin">{{summary}}</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                <strong>Published:</strong>&nbsp;
+                                {{#if isTalk}}Given{{/if}}{{#if isPaper}}Published{{/if}}:
                                 {{releaseDate}}
                               </p>
                             </div>

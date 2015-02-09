@@ -108,6 +108,7 @@ function render(resume) {
             return entry.language + ' [' + entry.fluency + ']';
         }).join( ', ' );
     }
+
     _.each( resume.work, function( work_info ) {
         var did_leave_company,
             start_date = work_info.startDate && new Date( work_info.startDate ),
@@ -173,6 +174,8 @@ function render(resume) {
     _.each( resume.publications, function( publication_info ) {
         if ( publication_info.releaseDate ) {
             publication_info.releaseDate = moment( new Date( publication_info.releaseDate ) ).format( 'MMM DD, YYYY' )
+            publication_info.isTalk = publication_info.publicationType ==  'talk';
+            publication_info.isPaper = publication_info.publicationType == 'paper';
         }
     });
 
