@@ -1,26 +1,33 @@
 {
-  "name": "jsonresume-theme-elegant",
-  "version": "0.9.3",
-  "description": "Elegant theme for jsonresume",
+  "name": "datascientist.guru",
+  "version": "0.1.0",
+  "description": "My personal resume & CV, based on Elegant theme for jsonresume",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant.git"
+    "url": "https://github.com/nihonjinrxs/datascientist.guru.git"
   },
   "keywords": [
+    "ryan.b.harvey",
+    "ryan harvey",
+    "data science",
+    "database",
+    "information technology",
+    "web development",
+    "software engineer",
     "jsonresume",
     "theme",
     "elegant"
   ],
-  "author": "Mudassir Ali <mudassir.dev@gmail.com>",
+  "author": "Ryan Harvey <ryan.b.harvey@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant/issues"
+    "url": "https://github.com/nihonjinrxs/datascientist.guru/issues"
   },
-  "homepage": "https://github.com/mudassir0909/jsonresume-theme-elegant",
+  "homepage": "http://datascientist.guru",
   "dependencies": {
     "gravatar": "^1.0.6",
     "handlebars": "^2.0.0-alpha.4",
