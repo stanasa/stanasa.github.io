@@ -398,13 +398,13 @@
                       {{#each resume.education}}
                         <li class="card card-nested">
                           <div class="content has-sidebar">
-                            <p class="clear-margin-sm">
+                            <p class="clear-margin-sm study-type">
                               <strong>{{studyType}}</strong>
                             </p>
-                            <p class="clear-margin-sm">
+                            <p class="clear-margin-sm study-area">
                               <strong>{{area}}</strong>
                             </p>
-                            <p class="clear-margin-sm">
+                            <p class="clear-margin-sm institution">
                               {{institution}}
                             </p>
                             <p class="visible-xs visible-sm text-muted">
@@ -660,7 +660,7 @@
                           <li class="card card-nested">
                             <p>
                               <a href="{{profile}}"><strong>{{name}}</strong></a>, 
-                              {{date}} ({{relationship}})
+                              {{date}} <span class="reference-relationship">({{relationship}})</span>
                             </p>
                             <blockquote class="quote">
                               <p class="clear-margin">{{reference}}</p>
