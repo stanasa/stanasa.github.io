@@ -8,653 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/theme.css">
-    <!-- style>
-      .clear-margin {
-  margin: 0;
-}
-.space-top {
-  margin-top: 10px;
-}
-.space-right {
-  margin-right: 10px;
-}
-.icon-left {
-  margin-right: 5px;
-}
-.icon-right {
-  margin-left: 5px;
-}
-.labels {
-  word-spacing: 5px;
-  line-height: 2;
-}
-.label-keyword {
-  display: inline-block;
-  background: #3d8b3d;
-  color: white;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #1e441e;
-}
-.link-disguise {
-  color: inherit;
-}
-.link-disguise:hover {
-  color: inherit;
-}
-@media (max-width: 992px) {
-  .clear-margin-sm {
-    margin-bottom: 0;
-  }
-}
-body {
-  font-family: 'Lato';
-  background: #f0f0f0;
-  color: #333333;
-}
-a {
-  color: #3d8b3d;
-}
-a:hover {
-  color: #1e441e;
-}
-.main {
-  padding: 5px;
-}
-.card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  min-height: 300px;
-  padding: 10px;
-}
-.card-nested {
-  min-height: 0;
-  margin-bottom: 10px;
-  border-width: 1px 0 0 0;
-}
-.card-nested:before,
-.card-nested:after {
-  content: " ";
-  display: table;
-}
-.card-nested:after {
-  clear: both;
-}
-@media (max-width: 480px) {
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.link-separator {
-  color: #808080;
-  font-size: 0.8em;
-  padding: 0 10px;
-}
-.background-card {
-  padding: 10px 20px;
-}
-.card-wrapper {
-  padding: 5px;
-}
-@media (max-width: 992px) {
-  .card-wrapper {
-    float: none !important;
-  }
-}
-.text-bolder {
-  font-weight: bold;
-}
-.background-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.background-details .detail .icon {
-  min-width: 45px;
-  max-width: 45px;
-  text-align: center;
-}
-.background-details .detail .info {
-  width: 100%;
-}
-.background-details .detail .title,
-.background-details .detail .icon {
-  color: #3d8b3d;
-}
-.background-details .detail .title .grey {
-  color: #333333;
-  font-size: 0.8em;
-  padding-left: 20px;
-}
-.background-details .detail .mobile-title {
-  display: none;
-}
-@media (max-width: 480px) {
-  .background-details .detail .mobile-title {
-    display: inline-block;
-    margin-left: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-  .background-details .detail .mobile-title .grey {
-    color: #333333;
-  }
-}
-.background-details .detail .icon,
-.background-details .detail .info {
-  display: table-cell;
-  padding: 0 10px;
-}
-@media (max-width: 480px) {
-  .background-details .detail {
-    display: block;
-  }
-  .background-details .detail .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .detail .icon,
-  .background-details .detail .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .detail .title {
-    display: none;
-  }
-}
-.info .content.has-sidebar {
-  width: 80%;
-  box-sizing: border-box;
-  float: left;
-  padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
-}
-@media (max-width: 992px) {
-  .info .content.has-sidebar {
-    width: 100%;
-    border-right: 0;
-  }
-}
-@media (max-width: 480px) {
-  .info .content.has-sidebar {
-    padding: 0 2px;
-  }
-}
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-}
-/*
-    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
-*/
-.floating-nav-trigger {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  -webkit-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  padding-top: 10px;
-  background-color: white;
-  font-size: 1.5em;
-  color: #3d8b3d;
-  z-index: 100;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-}
-.floating-nav-trigger .close-icon {
-  display: none;
-}
-.floating-nav-trigger:hover {
-  color: #1e441e;
-  background-color: #e6e6e6;
-  text-decoration: none;
-}
-.floating-nav-trigger.is-open {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.floating-nav-trigger.is-open .close-icon {
-  display: inherit;
-}
-.floating-nav-trigger.is-open .fa-bars {
-  display: none;
-}
-.floating-nav-trigger.is-open:hover {
-  background-color: white;
-}
-.floating-nav {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: 100% 0%;
-  -moz-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
-  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-  -o-transition: transform 0.3s, visibility 0s 0.3s;
-  transition: transform 0.3s, visibility 0s 0.3s;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  position: fixed;
-  z-index: 50;
-  right: 10px;
-  top: 10px;
-  background-color: white;
-  width: 90%;
-  max-width: 400px;
-  visibility: hidden;
-  overflow: hidden;
-}
-.floating-nav ul {
-  font-size: 1.2em;
-  margin: 0;
-}
-.floating-nav ul li {
-  border-bottom: 1px solid #eff2f6;
-}
-.floating-nav ul li a {
-  padding: 20px;
-  text-decoration: none;
-  color: #3d8b3d;
-  display: block;
-}
-.floating-nav ul li a:hover {
-  color: #1e441e;
-}
-.floating-nav ul li i.fa {
-  margin-right: 10px;
-}
-.floating-nav ul li:last-child {
-  border-bottom: 0;
-}
-.floating-nav.is-visible {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: transform 0.3s, visibility 0s 0s;
-  -o-transition: transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-  visibility: visible;
-}
-@media (max-width: 992px) {
-  .profile-card-wrapper {
-    position: relative;
-  }
-}
-.profile-pic {
-  padding: 20px 0;
-}
-@media (max-width: 992px) {
-  .profile-pic {
-    padding: 10px 0;
-  }
-}
-.profile-pic img {
-  width: 150px;
-  height: 150px;
-}
-.name {
-  color: #3d8b3d;
-}
-@media (max-width: 992px) {
-  .name {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .contact-details {
-    text-align: center;
-  }
-}
-.contact-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.contact-details .detail .icon {
-  padding: 0 10px;
-  color: #3d8b3d;
-}
-@media (max-width: 992px) {
-  .contact-details .detail .icon {
-    padding: 0 5px 0 0;
-  }
-}
-.contact-details .detail .info {
-  font-size: 0.8em;
-}
-.contact-details .detail .icon,
-.contact-details .detail .info {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media (max-width: 768px) {
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (max-width: 992px) {
-  .contact-details .detail {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 10px;
-  }
-  .contact-details .detail .icon,
-  .contact-details .detail .info {
-    display: inline-block;
-  }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
-  }
-}
-.social-links {
-  line-height: 2.5;
-}
-.social-link {
-  margin-left: 5px;
-  min-width: 35px;
-  display: inline-block;
-}
-.social-link:first-child {
-  margin-left: 0;
-}
-.social-link:hover {
-  text-decoration: none;
-}
-.link-github {
-  color: #454545;
-}
-.link-github:hover,
-.link-github:focus {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-.link-twitter {
-  color: #33ccff;
-}
-.link-twitter:hover,
-.link-twitter:focus {
-  text-decoration: none;
-  color: #00bfff;
-}
-.link-blog {
-  color: #f36f24;
-}
-.link-blog:hover,
-.link-blog:focus {
-  text-decoration: none;
-  color: #d8560c;
-}
-.link-website {
-  color: #0052a3;
-}
-.link-website:hover,
-.link-website:focus {
-  text-decoration: none;
-  color: #003870;
-}
-.link-linkedin {
-  color: #007bb6;
-}
-.link-linkedin:hover,
-.link-linkedin:focus {
-  text-decoration: none;
-  color: #005983;
-}
-.link-skype {
-  color: #12a5f4;
-}
-.link-skype:hover,
-.link-skype:focus {
-  text-decoration: none;
-  color: #0986ca;
-}
-.link-stackoverflow {
-  color: #8e8e92;
-}
-.link-stackoverflow:hover,
-.link-stackoverflow:focus {
-  text-decoration: none;
-  color: #747479;
-}
-.link-soundcloud {
-  color: #e8822d;
-}
-.link-soundcloud:hover,
-.link-soundcloud:focus {
-  text-decoration: none;
-  color: #cc6916;
-}
-.link-googleplus {
-  color: #dd4b39;
-}
-.link-googleplus:hover,
-.link-googleplus:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-pinterest {
-  color: #bd091f;
-}
-.link-pinterest:hover,
-.link-pinterest:focus {
-  text-decoration: none;
-  color: #8c0717;
-}
-.link-vimeo {
-  color: #17b3e8;
-}
-.link-vimeo:hover,
-.link-vimeo:focus {
-  text-decoration: none;
-  color: #128fba;
-}
-.link-behance {
-  color: #2c98cf;
-}
-.link-behance:hover,
-.link-behance:focus {
-  text-decoration: none;
-  color: #2379a5;
-}
-.link-codepen {
-  color: #1c1c1c;
-}
-.link-codepen:hover,
-.link-codepen:focus {
-  text-decoration: none;
-  color: #020202;
-}
-.link-foursquare {
-  color: #fa4778;
-}
-.link-foursquare:hover,
-.link-foursquare:focus {
-  text-decoration: none;
-  color: #f91554;
-}
-.link-reddit {
-  color: #545454;
-}
-.link-reddit:hover,
-.link-reddit:focus {
-  text-decoration: none;
-  color: #3b3b3b;
-}
-.link-spotify {
-  color: #acd200;
-}
-.link-spotify:hover,
-.link-spotify:focus {
-  text-decoration: none;
-  color: #829f00;
-}
-.link-dribbble {
-  color: #ce366f;
-}
-.link-dribbble:hover,
-.link-dribbble:focus {
-  text-decoration: none;
-  color: #a82959;
-}
-.link-facebook {
-  color: #4b6daa;
-}
-.link-facebook:hover,
-.link-facebook:focus {
-  text-decoration: none;
-  color: #3b5687;
-}
-.link-angellist {
-  color: #000000;
-}
-.link-angellist:hover,
-.link-angellist:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.link-bitbucket {
-  color: #205081;
-}
-.link-bitbucket:hover,
-.link-bitbucket:focus {
-  text-decoration: none;
-  color: #163758;
-}
-.card-skills {
-  position: relative;
-}
-.skill-level {
-  border-radius: 3px;
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-}
-.skill-level .skill-progress {
-  position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
-}
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
-}
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
-}
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
-}
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
-}
-.skill-info {
-  margin-left: 10px;
-}
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
-  }
-}
-p.institution {
-  font-variant: small-caps;
-}
-p.study-type {
-  font-weight: 900;
-}
-p.study-area {
-  font-size: 1.2em;
-}
-#publications .content i.fa {
-  color: #3d8b3d;
-  padding-right: 10px;
-}
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
-}
-.reference-relationship {
-  font-size: 0.7em;
-  text-transform: uppercase;
-  margin-left: 15px;
-}
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-  .profile-card {
-    text-align: center;
-  }
-  .profile-pic {
-    display: inline-block;
-    vertical-align: middle;
-    /*
-        img {
-            border-radius: 0;
-        }
-        */
-  }
-  .name-and-profession {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-  }
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 25%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0;
-  }
-  .floating-nav,
-  .floating-nav-trigger {
-    display: none;
-  }
-  .pagebreak {
-    page-break-before: always;
-  }
-  .label {
-    border: none;
-  }
-}
-
-    </style -->
   </head>
 
   <body itemscope itemtype="http://schema.org/Person">
@@ -684,44 +37,37 @@ p.study-area {
           <ul class="list-unstyled">
             <li>
               <a href="#about">
-                <i class="fa fa-user"></i>
-                Who are you? [Summary]
+                <i class="fa fa-user"></i>Summary
               </a>
             </li>
             <li>
               <a href="#work-experience">
-                <i class="fa fa-building"></i>
-                What have you done? [Experience]
+                <i class="fa fa-building"></i>Experience
               </a>
             </li>
             <li>
               <a href="#skills">
-                <i class="fa fa-code"></i>
-                What can you do? [Skills]
+                <i class="fa fa-code"></i>Skills
               </a>
             </li>
             <li>
               <a href="#education">
-                <i class="fa fa-mortar-board"></i>
-                What have you learned? [Education]
+                <i class="fa fa-mortar-board"></i>Education
               </a>
             </li>
               <li>
                 <a href="#publications">
-                  <i class="fa fa-book"></i>
-                  What have you published? [Talks &amp; Papers]
+                  <i class="fa fa-book"></i>Talks &amp; Papers
                 </a>
               </li>
               <li>
                 <a href="#interests">
-                  <i class="fa fa-heart"></i>
-                  What do you enjoy? [Interests]
+                  <i class="fa fa-heart"></i>Interests
                 </a>
               </li>
               <li>
                 <a href="#references">
-                  <i class="fa fa-thumbs-up"></i>
-                  Who can vouch for you? [Testimonials]
+                  <i class="fa fa-thumbs-up"></i>Testimonials
                 </a>
               </li>
           </ul>
@@ -800,7 +146,6 @@ p.study-area {
                   <a class="fa fa-skype fa-2x social-link link-skype"
                        href="skype:nihonjinrxs?call" target="_blank"></a>
                   <a class="fa fa-facebook-square fa-2x social-link link-facebook" href="//facebook.com/ryan.b.harvey" target="_blank"></a>
-                  <a class="fa fa-google-plus-square fa-2x social-link link-googleplus" href="//plus.google.com/u/0/+RyanBHarvey" target="_blank"></a>
               </div>
           </div>
         </section>
@@ -1088,7 +433,7 @@ p.study-area {
                               </div>
                             </div>
                           <div class="skill-info">
-                            <strong>Data Science &amp;amp; Computational Sciences</strong>
+                            <strong>Data Science</strong>
 
                             <div class="space-top labels">
                                 <span class="label label-keyword">Data Analysis</span>
@@ -1258,8 +603,6 @@ p.study-area {
                             </p>
                             <i></i>
                             <div class="space-top labels">
-                                <span class="label label-keyword">AMSC898 Pre-dissertation Research</span>
-                                <span class="label label-keyword">AMSC899 Dissertation Research</span>
                             </div>
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -1292,18 +635,6 @@ p.study-area {
                             </p>
                             <i></i>
                             <div class="space-top labels">
-                                <span class="label label-keyword">AMSC663 Advanced Scientific Computing I</span>
-                                <span class="label label-keyword">AMSC664 Advanced Scientific Computing II</span>
-                                <span class="label label-keyword">MAIT679E Computational Time-Frequency Analysis</span>
-                                <span class="label label-keyword">MAIT679F Special Topics: Frame Theory &amp; Applications</span>
-                                <span class="label label-keyword">BIOL646 Hearing</span>
-                                <span class="label label-keyword">ENEE463 Digital Control Systems</span>
-                                <span class="label label-keyword">ENEE425 Digital Signal Processing</span>
-                                <span class="label label-keyword">ENEE630 Advanced Digital Signal Processing</span>
-                                <span class="label label-keyword">AMSC466 Intro to Numerical Analysis</span>
-                                <span class="label label-keyword">AMSC666 Numerical Analysis I</span>
-                                <span class="label label-keyword">AMSC452 Intro to Dynamics &amp; Chaos</span>
-                                <span class="label label-keyword">AMSC670 Ordinary Differential Equations I</span>
                             </div>
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -1336,10 +667,6 @@ p.study-area {
                             </p>
                             <i></i>
                             <div class="space-top labels">
-                                <span class="label label-keyword">AMSC660 Scientific Computing I</span>
-                                <span class="label label-keyword">AMSC661 Scientific Computing II</span>
-                                <span class="label label-keyword">AMSC662 Computer Organization &amp; Programming for Scientific Computing</span>
-                                <span class="label label-keyword">ENEE620 Random Processes in Communication &amp;amp; Control</span>
                             </div>
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -1372,10 +699,6 @@ p.study-area {
                             </p>
                             <i></i>
                             <div class="space-top labels">
-                                <span class="label label-keyword">MAIT623 Mathematical Methods for Signal Processing I</span>
-                                <span class="label label-keyword">MAIT624 Mathematical Methods for Signal Processing II</span>
-                                <span class="label label-keyword">MAIT633 Applied Fourier Analysis</span>
-                                <span class="label label-keyword">MAIT699 Independent Master&#x27;s Project: Stockwell Transform</span>
                             </div>
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -1408,11 +731,6 @@ p.study-area {
                             </p>
                             <i></i>
                             <div class="space-top labels">
-                                <span class="label label-keyword">Strategies for Managing Innovation</span>
-                                <span class="label label-keyword">Effective Negotiation Skills</span>
-                                <span class="label label-keyword">Marketing in Technology-Driven Industries</span>
-                                <span class="label label-keyword">Innovative Product Design &amp; Development</span>
-                                <span class="label label-keyword">Essentials of Financial Analysis</span>
                             </div>
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -1495,14 +813,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: Jan 06, 2015
+                                  : Jan 06, 2015
                                 </small>
                               </p>
                               <p class="clear-margin">I gave a talk on getting, processing, and reshaping JSON data for use in data analysis using PostgreSQL 9.4 at the Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk gave an introduction to JSON data, the JSON data types, operators and functions available in the newly released (December 18, 2014) PostgreSQL version 9.4, as well as two examples of pulling JSON data directly from public APIs into PostgreSQL and processing them in the database into analysis style flat tables.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 Jan 06, 2015
                               </p>
                             </div>
@@ -1526,14 +844,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: Oct 13, 2014
+                                  : Oct 13, 2014
                                 </small>
                               </p>
                               <p class="clear-margin">I gave a talk on SQL to the Polyglot Programming DC meetup group. The talk gave an introduction to SQL and its use for relational databases, as well as some examples of using SQL on DataFrame data structures in R and Python.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 Oct 13, 2014
                               </p>
                             </div>
@@ -1557,14 +875,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: Aug 05, 2014
+                                  : Aug 05, 2014
                                 </small>
                               </p>
                               <p class="clear-margin">I gave another talk on SQL and its utility for data preprocessing and analysis tasks to Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunity.org). The talk covered topics such as custom views and functions in databases (with examples using PostgreSQL), performance tuning of queries using explain and indexes, basics of relational algebra, as well as use of SQL statements to manipulate dataframe objects in R and Python.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 Aug 05, 2014
                               </p>
                             </div>
@@ -1588,14 +906,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: Jun 03, 2014
+                                  : Jun 03, 2014
                                 </small>
                               </p>
                               <p class="clear-margin">I gave a talk on the basics SQL and its utility for data preprocessing and analysis tasks to the Data Wrangers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk covered an introduction to relational data, database tools, and the SQL standard, as well as the basics of SQL select statements, common table expressions and creating views from select statements. In addition, the use of relevant libraries in R and Python to connect to data in relational databases were explained using examples with PostgreSQL, IPython notebooks, and RMarkdown.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 Jun 03, 2014
                               </p>
                             </div>
@@ -1615,14 +933,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: Mar 24, 2013
+                                  : Mar 24, 2013
                                 </small>
                               </p>
                               <p class="clear-margin">At this summit, I gave a talk on some of the work I&#x27;d been doing on building a dataset on the OMB Public Budget Database as part my doctoral dissertation. In short, my message was &quot;If you need an API on government data for something you&#x27;re doing, build one!&quot; I tried to provide tools and perspective on how that can be accomplished.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 Mar 24, 2013
                               </p>
                             </div>
@@ -1642,14 +960,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Given: May 16, 2010
+                                  : May 16, 2010
                                 </small>
                               </p>
                               <p class="clear-margin">Doctoral Candidacy Exam for the Doctor of Philosophy program in Applied Mathematics, Applied Statistics and Scientific Computing. (I passed.)</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Given:
+                                :
                                 May 16, 2010
                               </p>
                             </div>
@@ -1670,14 +988,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Published: May 19, 2004
+                                  : May 19, 2004
                                 </small>
                               </p>
                               <p class="clear-margin">The attempt of this paper is to give an overview of previous research in the ﬁeld of sound and music synthesis using physical models of musical instruments and studies of the nonlinear dynamics of those models. Models considered are limited to those instruments producing sustained tones. Chua’s circuit, and its generalization, Chua’s oscillator, are described and detailed, including many of the dynamical phenomena associated with them. Musical concepts important to the models are discussed, as well as the time-delayed Chua’s circuit and its usefulness as a candidate for a synthesizing standard. Prospects for future research are also discussed.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Published:
+                                :
                                 May 19, 2004
                               </p>
                             </div>
@@ -1698,14 +1016,14 @@ p.study-area {
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Published: Dec 03, 1996
+                                  : Dec 03, 1996
                                 </small>
                               </p>
                               <p class="clear-margin">The field of multiple processor computer systems has experienced extensive growth in recent years. In order to operate these systems practically, an operating system or extensions must be developed to adequately handle multiple processors. In this paper, several versions of a multiprogramming multiprocessor system are simulated.</p>
                             </div>
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
-                                Published:
+                                :
                                 Dec 03, 1996
                               </p>
                             </div>
