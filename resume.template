@@ -178,8 +178,12 @@
 
               <div class="social-links text-center">
                 {{#if website}}
-                  <a class="fa fa-rss fa-2x social-link link-blog"
+                  <a class="fa fa-globe fa-2x social-link link-website"
                        href="{{website}}" target="_blank"></a>
+                {{/if}}
+                {{#if blog}}
+                  <a class="fa fa-rss fa-2x social-link link-blog"
+                      href="{{blog}}" target="_blank"></a>
                 {{/if}}
                 {{#if github_url}}
                   <a class="fa fa-github fa-2x social-link link-github"
@@ -209,6 +213,9 @@
                 {{/if}}
                 {{#if facebook_url}}
                   <a class="fa fa-facebook-square fa-2x social-link link-facebook" href="{{facebook_url}}" target="_blank"></a>
+                {{/if}}
+                {{#if googleplus_url}}
+                  <a class="fa fa-google-plus-square fa-2x social-link link-googleplus" href="{{googleplus_url}}" target="_blank"></a>
                 {{/if}}
                 {{#if soundcloud_url}}
                   <a class="fa fa-soundcloud fa-2x social-link link-soundcloud"
@@ -659,7 +666,7 @@
                         {{#each resume.references}}
                           <li class="card card-nested">
                             <p>
-                              <a href="{{profile}}"><strong>{{name}}</strong></a>, 
+                              <a href="{{profile}}" target="_blank"><strong>{{name}}</strong></a>, 
                               {{date}} <span class="reference-relationship">({{relationship}})</span>
                             </p>
                             <blockquote class="quote">
