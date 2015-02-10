@@ -20,8 +20,31 @@ module.exports = function(grunt) {
         exec: {
             run_server: {
                 cmd: "node serve.js"
+            },
+            build_index: {
+                cmd: "node render.js"
             }
-        }
+        },
+        copy: {
+            build: {
+                cwd: './assets/css',
+                src: [ 'theme.css' ],
+                dest: './build/assets/css',
+                expand: true
+            }
+        },
+        clean: {
+            build: {
+                src: [ 'build' ]
+            }
+        },
+        cssmin: {
+          build: {
+            files: {
+              './build/theme.css': [ './build/theme.css' ]
+            }
+          }
+        },
     });
 
     // Load the plugin that compiles less to css
@@ -33,6 +56,16 @@ module.exports = function(grunt) {
     // Load the plugin to execute shell commands
     grunt.loadNpmTasks('grunt-exec');
 
+    // Load the plugin to clean directories
+    grunt.loadNpmTasks('grunt-contrib-clean')
+
+    // Load the plugin to copy files
+    grunt.loadNpmTasks('grunt-contrib-copy');
+
+    // Load the plugin to minify CSS
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+
     // Default tasks
-    grunt.registerTask('default', ['exec']);
+    grunt.registerTask('default', [ 'exec' ]);
+    grunt.registerTask('build', [ 'clean', 'copy:build', 'cssmin', 'exec:build_index' ]);
 }
