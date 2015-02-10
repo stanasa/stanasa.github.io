@@ -37,65 +37,56 @@
           <ul class="list-unstyled">
             <li>
               <a href="#about">
-                <i class="fa fa-user"></i>
-                Who are you? [Summary]
+                <i class="fa fa-user"></i>Summary
               </a>
             </li>
             <li>
               <a href="#work-experience">
-                <i class="fa fa-building"></i>
-                What have you done? [Experience]
+                <i class="fa fa-building"></i>Experience
               </a>
             </li>
             <li>
               <a href="#skills">
-                <i class="fa fa-code"></i>
-                What can you do? [Skills]
+                <i class="fa fa-code"></i>Skills
               </a>
             </li>
             <li>
               <a href="#education">
-                <i class="fa fa-mortar-board"></i>
-                What have you learned? [Education]
+                <i class="fa fa-mortar-board"></i>Education
               </a>
             </li>
             {{#if resume.volunteer}}
               <li>
                 <a href="#volunteer-work">
-                  <i class="fa fa-child"></i>
-                  What causes have you helped? [Volunteering]
+                  <i class="fa fa-child"></i>Volunteering
                 </a>
               </li>
             {{/if}}
             {{#if resume.publications}}
               <li>
                 <a href="#publications">
-                  <i class="fa fa-book"></i>
-                  What have you published? [Talks &amp; Papers]
+                  <i class="fa fa-book"></i>Talks &amp; Papers
                 </a>
               </li>
             {{/if}}
             {{#if resume.awards}}
               <li>
                 <a href="#awards">
-                  <i class="fa fa-trophy"></i>
-                  What recognition have you earned? [Awards]
+                  <i class="fa fa-trophy"></i>Awards
                 </a>
               </li>
             {{/if}}
             {{#if resume.interests}}
               <li>
                 <a href="#interests">
-                  <i class="fa fa-heart"></i>
-                  What do you enjoy? [Interests]
+                  <i class="fa fa-heart"></i>Interests
                 </a>
               </li>
             {{/if}}
             {{#if resume.references}}
               <li>
                 <a href="#references">
-                  <i class="fa fa-thumbs-up"></i>
-                  Who can vouch for you? [Testimonials]
+                  <i class="fa fa-thumbs-up"></i>Testimonials
                 </a>
               </li>
             {{/if}}
