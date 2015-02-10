@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Bensussan Harvey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!-- style>
+      .clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
+}
+.labels {
+  word-spacing: 5px;
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #3d8b3d;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #1e441e;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+body {
+  font-family: 'Lato';
+  background: #f0f0f0;
+  color: #333333;
+}
+a {
+  color: #3d8b3d;
+}
+a:hover {
+  color: #1e441e;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px;
+}
+.card-nested {
+  min-height: 0;
+  margin-bottom: 10px;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.link-separator {
+  color: #808080;
+  font-size: 0.8em;
+  padding: 0 10px;
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.text-bolder {
+  font-weight: bold;
+}
+.background-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #3d8b3d;
+}
+.background-details .detail .title .grey {
+  color: #333333;
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .background-details .detail .mobile-title .grey {
+    color: #333333;
+  }
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
+}
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  font-size: 1.5em;
+  color: #3d8b3d;
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1e441e;
+  background-color: #e6e6e6;
+  text-decoration: none;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .fa-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #3d8b3d;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1e441e;
+}
+.floating-nav ul li i.fa {
+  margin-right: 10px;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+}
+.name {
+  color: #3d8b3d;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #3d8b3d;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-website {
+  color: #0052a3;
+}
+.link-website:hover,
+.link-website:focus {
+  text-decoration: none;
+  color: #003870;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12a5f4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: #000000;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+p.institution {
+  font-variant: small-caps;
+}
+p.study-type {
+  font-weight: 900;
+}
+p.study-area {
+  font-size: 1.2em;
+}
+#publications .content i.fa {
+  color: #3d8b3d;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.reference-relationship {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+    /*
+        img {
+            border-radius: 0;
+        }
+        */
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  .label {
+    border: none;
+  }
+}
+
+    </style -->
+  </head>
+
+  <body itemscope itemtype="http://schema.org/Person">
+    <script>
+      window.onload = function () {
+        var toggleFloatingMenu = function() {
+          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+        };
+
+        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+        $( ".js-tooltip" ).tooltip();
+        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+          e.preventDefault();
+          toggleFloatingMenu();
+        });
+        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+      }
+    </script>
+    <div class="container-fluid">
+      <div class="row main clearfix">
+        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
+          <i class="fa fa-bars"></i>
+          <span class="close-icon">&times;</span>
+        </a>
+        <nav class="floating-nav js-floating-nav">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#about">
+                <i class="fa fa-user"></i>
+                Who are you? [Summary]
+              </a>
+            </li>
+            <li>
+              <a href="#work-experience">
+                <i class="fa fa-building"></i>
+                What have you done? [Experience]
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <i class="fa fa-code"></i>
+                What can you do? [Skills]
+              </a>
+            </li>
+            <li>
+              <a href="#education">
+                <i class="fa fa-mortar-board"></i>
+                What have you learned? [Education]
+              </a>
+            </li>
+              <li>
+                <a href="#publications">
+                  <i class="fa fa-book"></i>
+                  What have you published? [Talks &amp; Papers]
+                </a>
+              </li>
+              <li>
+                <a href="#interests">
+                  <i class="fa fa-heart"></i>
+                  What do you enjoy? [Interests]
+                </a>
+              </li>
+              <li>
+                <a href="#references">
+                  <i class="fa fa-thumbs-up"></i>
+                  Who can vouch for you? [Testimonials]
+                </a>
+              </li>
+          </ul>
+        </nav>
+
+        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
+          <div class="card profile-card">
+              <span class="profile-pic-container">
+                <div class="profile-pic">
+                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
+                    alt="Ryan Bensussan Harvey" src="http://www.gravatar.com/avatar/fdca5fdaa9db660b42d4a49557f3dd94.png" itemprop="image">
+                </div>
+
+                <div class="name-and-profession">
+                  <h3 class="text-center text-bolder name" itemprop="name"> Ryan Bensussan Harvey</h3>
+                  <h5 class="text-muted text-center" itemprop="jobTitle">Coder, Datahead, PM, Wonk, Dad.</h5>
+                </div>
+              </span>
+              <hr>
+
+              <div class="contact-details clearfix">
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-location-arrow"></i>
+                    </span>
+
+                      <span class="info">
+                        Lanham, MD,
+                        USA
+                      </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-phone"></i>
+                    </span>
+
+                    <span class="info" itemprop="telephone">
+                      301-375-0678
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-envelope"></i>
+                    </span>
+
+                    <span class="info">
+                      <a href="mailto:ryan.b.harvey@gmail.com" class="link-disguise" itemprop="email">ryan.b.harvey@gmail.com</a>
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon" title="Languages I speak">
+                      <i class="fa fa-lg fa-language"></i>
+                    </span>
+
+                    <span class="info">
+                      English (US) [Native], Japanese [Basic]
+                    </span>
+                  </div>
+              </div>
+
+              <hr>
+
+              <div class="social-links text-center">
+                  <a class="fa fa-globe fa-2x social-link link-website"
+                       href="http://datascientist.guru" target="_blank"></a>
+                  <a class="fa fa-github fa-2x social-link link-github"
+                       href="//github.com/nihonjinrxs" target="_blank"></a>
+                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
+                       href="https://www.linkedin.com/in/ryanbharvey" target="_blank"></a>
+                  <a class="fa fa-twitter fa-2x social-link link-twitter"
+                       href="//twitter.com/nihonjinrxs" target="_blank"></a>
+                  <a class="fa fa-skype fa-2x social-link link-skype"
+                       href="skype:nihonjinrxs?call" target="_blank"></a>
+                  <a class="fa fa-facebook-square fa-2x social-link link-facebook" href="//facebook.com/ryan.b.harvey" target="_blank"></a>
+                  <a class="fa fa-google-plus-square fa-2x social-link link-googleplus" href="//plus.google.com/u/0/+RyanBHarvey" target="_blank"></a>
+              </div>
+          </div>
+        </section>
+
+        <section class="col-md-9 card-wrapper pull-right">
+          <div class="card background-card">
+            <div class="background-details">
+              <div class="detail" id="about">
+                <div class="icon">
+                  <i class="fa fa-lg fa-user"></i>
+                  <span class="mobile-title">Who are you?</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Who are you? <span class="grey">Summary</span>
+                  </h4>
+
+                  <div class="content" itemprop="description">
+                    I&#x27;m a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I&#x27;m passionate about clean, purposeful interfaces and joyous user experiences. I read lots of books, but never seem to get through my reading list. I&#x27;m a happy husband and father of two.
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail" id="work-experience">
+                <div class="icon">
+                  <i class="fa fa-lg fa-building"></i>
+                  <span class="mobile-title">What have you done?</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    What have you done? <span class="grey">Experience</span>
+                  </h4>
+
+                  <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>IT Project Manager</strong>,&nbsp;
+                              <a href="http://www.whitehouse.gov/omb"  target="_blank">Executive Office of the President</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Apr 2012 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  2 years 10 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>In the Budget Systems Branch of the Office of Management and Budget, I&#x27;m responsible for the development of our next generation data collection platform and its associated Java EE-based microservices that facilitates government-wide data collections and enable development of the President&#x27;s Budget.  I make sure our 130,000+ users are happy and ensure that all the must-have features are complete within the impossible timelines allocated.  I&#x27;m also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I manage a few other web apps, write lots of SQL, and improve our development and project management tools and processes.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              Apr 2012
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              2 years 10 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Data Scientist &amp; Software Architect</strong>,&nbsp;
+                              <a href="http://www.kitchology.com"  target="_blank">Kitchology Inc.</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Jun 2013 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  1 year 8 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              Jun 2013
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              1 year 8 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Research Affiliate</strong>,&nbsp;
+                              <a href="http://norbertwiener.umd.edu"  target="_blank">University of Maryland</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Sep 2014 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  5 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>I&#x27;m a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborate with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              Sep 2014
+                            </p>
+
+                            <p>
+                                <span class="label label-success">
+                                  Currently Working
+                                </span>
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              5 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Hardy-Apfel IT Fellow (Computer Scientist)</strong>,&nbsp;
+                              <a href="http://www.socialsecurity.gov"  target="_blank">Social Security Administration</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Apr 2009 -
+                                  Mar 2012
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  3 years
+                                </span>
+                            </small>
+                          </p>
+                          <p>In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency&#x27;s strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              Apr 2009
+                            </p>
+
+                            <p>
+                                <strong>Left:</strong>&nbsp;
+                                Mar 2012
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              3 years
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>DSP Analyst &amp; Software Engineer</strong>,&nbsp;
+                              <a href="http://www.baesystems.com"  target="_blank">BAE Systems</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                May 2006 -
+                                  Feb 2009
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  2 years 9 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>In the Sensor Systems division&#x27;s Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              May 2006
+                            </p>
+
+                            <p>
+                                <strong>Left:</strong>&nbsp;
+                                Feb 2009
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              2 years 9 months
+                            </p>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>Graduate Assistant</strong>,&nbsp;
+                              <a href="http://www.baesystems.com"  target="_blank">University of Maryland, Office of IT</a>
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Jun 2004 -
+                                  May 2006
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  1 year 11 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.</p>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Joined:</strong>&nbsp;
+                              Jun 2004
+                            </p>
+
+                            <p>
+                                <strong>Left:</strong>&nbsp;
+                                May 2006
+                            </p>
+                            <p>
+                              <i class="fa fa-clock-o icon-left"></i>
+                              1 year 11 months
+                            </p>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="detail" id="skills">
+                <div class="icon">
+                  <i class="fa fa-lg fa-code"></i>
+                  <span class="mobile-title">What can you do?</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    What can you do? <span class="grey">Skills</span>
+                  </h4>
+
+                  <div class="content">
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Data Science &amp;amp; Computational Sciences</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Data Analysis</span>
+                                <span class="label label-keyword">SQL</span>
+                                <span class="label label-keyword">R</span>
+                                <span class="label label-keyword">Python</span>
+                                <span class="label label-keyword">Matlab</span>
+                                <span class="label label-keyword">Databases</span>
+                                <span class="label label-keyword">Data Cleaning</span>
+                                <span class="label label-keyword">Data Transformation</span>
+                                <span class="label label-keyword">Applied Mathematics</span>
+                                <span class="label label-keyword">Machine Learning</span>
+                                <span class="label label-keyword">Statistical Signal Processing</span>
+                                <span class="label label-keyword">Numerical Computing</span>
+                                <span class="label label-keyword">Statistical Computing</span>
+                                <span class="label label-keyword">Data Visualization</span>
+                                <span class="label label-keyword">Information Visualization</span>
+                                <span class="label label-keyword">Signal Processing</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Software Engineering</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Web Applications</span>
+                                <span class="label label-keyword">Web Development</span>
+                                <span class="label label-keyword">Software Development</span>
+                                <span class="label label-keyword">Databases</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Web Development</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">HTML</span>
+                                <span class="label label-keyword">CSS</span>
+                                <span class="label label-keyword">JavaScript</span>
+                                <span class="label label-keyword">Ruby on Rails</span>
+                                <span class="label label-keyword">PHP</span>
+                                <span class="label label-keyword">Web Design</span>
+                                <span class="label label-keyword">Web Analytics</span>
+                                <span class="label label-keyword">Web Content Management</span>
+                                <span class="label label-keyword">Web 2.0</span>
+                                <span class="label label-keyword">Web Accessibility</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Back-end Software Development</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Python</span>
+                                <span class="label label-keyword">Java</span>
+                                <span class="label label-keyword">SQL</span>
+                                <span class="label label-keyword">Ruby</span>
+                                <span class="label label-keyword">Databases</span>
+                                <span class="label label-keyword">Software Architecture</span>
+                                <span class="label label-keyword">Software Design</span>
+                                <span class="label label-keyword">C++</span>
+                                <span class="label label-keyword">C</span>
+                                <span class="label label-keyword">Mac OS X</span>
+                                <span class="label label-keyword">Linux</span>
+                                <span class="label label-keyword">Windows</span>
+                                <span class="label label-keyword">Data Integration</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Advanced" data-placement="left">
+                              <div class="skill-progress advanced">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Business, Government and Project Management</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Agile Project Management</span>
+                                <span class="label label-keyword">Agile Methodologies</span>
+                                <span class="label label-keyword">Information Technology Management</span>
+                                <span class="label label-keyword">Public Speaking</span>
+                                <span class="label label-keyword">Strategic Planning</span>
+                                <span class="label label-keyword">Visioning</span>
+                                <span class="label label-keyword">Writing</span>
+                                <span class="label label-keyword">Technical Writing</span>
+                                <span class="label label-keyword">Presentation Development</span>
+                                <span class="label label-keyword">Public Sector</span>
+                                <span class="label label-keyword">Federal Government</span>
+                                <span class="label label-keyword">Federal Budget</span>
+                                <span class="label label-keyword">Open Government Initiative</span>
+                                <span class="label label-keyword">Open Data</span>
+                                <span class="label label-keyword">Federal Records Management</span>
+                                <span class="label label-keyword">Microsoft Office</span>
+                                <span class="label label-keyword">Adobe Creative Suite</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Intermediate" data-placement="left">
+                              <div class="skill-progress intermediate">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Design</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Iterative Design</span>
+                                <span class="label label-keyword">User-centered Design</span>
+                                <span class="label label-keyword">Information Design</span>
+                                <span class="label label-keyword">Information Architecture</span>
+                                <span class="label label-keyword">Prototyping</span>
+                                <span class="label label-keyword">Web Design</span>
+                                <span class="label label-keyword">Information Visualization</span>
+                                <span class="label label-keyword">Accessible Design</span>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail" id="education">
+                <div class="icon">
+                  <i class="fa fa-lg fa-mortar-board"></i>
+                  <span class="mobile-title">What have you learned?</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    What have you learned? <span class="grey">Education</span>
+                  </h4>
+
+                  <div class="content">
+                    <ul class="list-unstyled">
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Doctor of Philosophy (unfinished, all but dissertation)</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Applied Mathematics, Applied Statistics and Scientific Computing</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              University of Maryland at College Park
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Aug 2007 -
+                                  Jun 2014
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">AMSC898 Pre-dissertation Research</span>
+                                <span class="label label-keyword">AMSC899 Dissertation Research</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Aug 2007
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                Jun 2014
+                            </p>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Master of Science</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Applied Mathematics and Scientific Computing</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              University of Maryland at College Park
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Aug 2003 -
+                                  Dec 2007
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">AMSC663 Advanced Scientific Computing I</span>
+                                <span class="label label-keyword">AMSC664 Advanced Scientific Computing II</span>
+                                <span class="label label-keyword">MAIT679E Computational Time-Frequency Analysis</span>
+                                <span class="label label-keyword">MAIT679F Special Topics: Frame Theory &amp; Applications</span>
+                                <span class="label label-keyword">BIOL646 Hearing</span>
+                                <span class="label label-keyword">ENEE463 Digital Control Systems</span>
+                                <span class="label label-keyword">ENEE425 Digital Signal Processing</span>
+                                <span class="label label-keyword">ENEE630 Advanced Digital Signal Processing</span>
+                                <span class="label label-keyword">AMSC466 Intro to Numerical Analysis</span>
+                                <span class="label label-keyword">AMSC666 Numerical Analysis I</span>
+                                <span class="label label-keyword">AMSC452 Intro to Dynamics &amp; Chaos</span>
+                                <span class="label label-keyword">AMSC670 Ordinary Differential Equations I</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Aug 2003
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                Dec 2007
+                            </p>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Graduate Certificate</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Scientific Computing</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              University of Maryland at College Park
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Aug 2003 -
+                                  Jul 2007
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">AMSC660 Scientific Computing I</span>
+                                <span class="label label-keyword">AMSC661 Scientific Computing II</span>
+                                <span class="label label-keyword">AMSC662 Computer Organization &amp; Programming for Scientific Computing</span>
+                                <span class="label label-keyword">ENEE620 Random Processes in Communication &amp;amp; Control</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Aug 2003
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                Jul 2007
+                            </p>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Graduate Certificate</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Computational Harmonic Analysis</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              University of Maryland at College Park
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Aug 2003 -
+                                  Jul 2007
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">MAIT623 Mathematical Methods for Signal Processing I</span>
+                                <span class="label label-keyword">MAIT624 Mathematical Methods for Signal Processing II</span>
+                                <span class="label label-keyword">MAIT633 Applied Fourier Analysis</span>
+                                <span class="label label-keyword">MAIT699 Independent Master&#x27;s Project: Stockwell Transform</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Aug 2003
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                Jul 2007
+                            </p>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Executive Education Certificate (non-credit)</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Innovation Management</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              University of Maryland at College Park
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Jan 2010 -
+                                  May 2010
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Strategies for Managing Innovation</span>
+                                <span class="label label-keyword">Effective Negotiation Skills</span>
+                                <span class="label label-keyword">Marketing in Technology-Driven Industries</span>
+                                <span class="label label-keyword">Innovative Product Design &amp; Development</span>
+                                <span class="label label-keyword">Essentials of Financial Analysis</span>
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Jan 2010
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                May 2010
+                            </p>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content has-sidebar">
+                            <p class="clear-margin-sm study-type">
+                              <strong>Bachelor of Science</strong>
+                            </p>
+                            <p class="clear-margin-sm study-area">
+                              <strong>Mathematics and Computer Science, minor in Japanese Studies</strong>
+                            </p>
+                            <p class="clear-margin-sm institution">
+                              Loyola University New Orleans
+                            </p>
+                            <p class="visible-xs visible-sm text-muted">
+                              <small>
+                                Aug 1997 -
+                                  May 2001
+                              </small>
+                            </p>
+                            <i></i>
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                          <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                            <p>
+                              <strong>Started:</strong>&nbsp;
+                              Aug 1997
+                            </p>
+                            <p>
+                                <strong>Completion:</strong>&nbsp;
+                                May 2001
+                            </p>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="detail" id="publications">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-book"></i>
+                    <span class="mobile-title">What have you published?</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      What have you published? <span class="grey">Talks &amp; Papers</span>
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://www.meetup.com/Data-Wranglers-DC/events/219112410/"  target="_blank">JSON Processing in the Database using PostgreSQL 9.4</a>
+                                </strong>,&nbsp;
+                                Data Wranglers DC
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="http://nihonjinrxs.github.io/dwdc-january2015/DWDC-January2015-RyanHarvey.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                                <span class="link-separator">&bullet;</span>
+                                <a href="https://github.com/nihonjinrxs/dwdc-january2015" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Jan 06, 2015
+                                </small>
+                              </p>
+                              <p class="clear-margin">I gave a talk on getting, processing, and reshaping JSON data for use in data analysis using PostgreSQL 9.4 at the Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk gave an introduction to JSON data, the JSON data types, operators and functions available in the newly released (December 18, 2014) PostgreSQL version 9.4, as well as two examples of pulling JSON data directly from public APIs into PostgreSQL and processing them in the database into analysis style flat tables.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Jan 06, 2015
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://www.meetup.com/Polyglot-Programming-DC/events/208670052/"  target="_blank">Manipulating Data in Style with SQL</a>
+                                </strong>,&nbsp;
+                                Polyglot Programming DC
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="http://nihonjinrxs.github.io/polyglot-october2014/Polyglot-October2014-RyanHarvey.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                                <span class="link-separator">&bullet;</span>
+                                <a href="https://github.com/nihonjinrxs/polyglot-october2014" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Oct 13, 2014
+                                </small>
+                              </p>
+                              <p class="clear-margin">I gave a talk on SQL to the Polyglot Programming DC meetup group. The talk gave an introduction to SQL and its use for relational databases, as well as some examples of using SQL on DataFrame data structures in R and Python.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Oct 13, 2014
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://www.meetup.com/Data-Wranglers-DC/events/177269432/"  target="_blank">SQL, the Sequel</a>
+                                </strong>,&nbsp;
+                                Data Wranglers DC
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="http://nihonjinrxs.github.io/dwdc-august2014/DWDC-August2014-RyanHarvey.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                                <span class="link-separator">&bullet;</span>
+                                <a href="https://github.com/nihonjinrxs/dwdc-august2014" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Aug 05, 2014
+                                </small>
+                              </p>
+                              <p class="clear-margin">I gave another talk on SQL and its utility for data preprocessing and analysis tasks to Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunity.org). The talk covered topics such as custom views and functions in databases (with examples using PostgreSQL), performance tuning of queries using explain and indexes, basics of relational algebra, as well as use of SQL statements to manipulate dataframe objects in R and Python.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Aug 05, 2014
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://www.meetup.com/Data-Wranglers-DC/events/171768162/"  target="_blank">Data Wrangling in SQL and Other Tools</a>
+                                </strong>,&nbsp;
+                                Data Wranglers DC
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="https://nihonjinrxs.github.io/dwdc-june2014/DWDC-June2014-RyanHarvey.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                                <span class="link-separator">&bullet;</span>
+                                <a href="https://github.com/nihonjinrxs/dwdc-june2014" target="_blank">
+                                <i class="fa fa-lg fa-file-code-o"></i>
+                                View materials online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Jun 03, 2014
+                                </small>
+                              </p>
+                              <p class="clear-margin">I gave a talk on the basics SQL and its utility for data preprocessing and analysis tasks to the Data Wrangers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk covered an introduction to relational data, database tools, and the SQL standard, as well as the basics of SQL select statements, common table expressions and creating views from select statements. In addition, the use of relevant libraries in R and Python to connect to data in relational databases were explained using examples with PostgreSQL, IPython notebooks, and RMarkdown.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Jun 03, 2014
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://www.openanalyticssummit.com/dc-schedule/"  target="_blank">Creating an API using the OMB&#x27;s Public Budget Database</a>
+                                </strong>,&nbsp;
+                                Open Analytics Summit DC
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="http://www2.math.umd.edu/~rharvey/oadc-budget-api-slides/" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: Mar 24, 2013
+                                </small>
+                              </p>
+                              <p class="clear-margin">At this summit, I gave a talk on some of the work I&#x27;d been doing on building a dataset on the OMB Public Budget Database as part my doctoral dissertation. In short, my message was &quot;If you need an API on government data for something you&#x27;re doing, build one!&quot; I tried to provide tools and perspective on how that can be accomplished.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                Mar 24, 2013
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    Methods of Manifold Learning for Dimension Reduction of Large Data Sets
+                                </strong>,&nbsp;
+                                University of Maryland
+                              </p>
+                              <p class="clear-margin-sm">
+                                <a href="https://sites.google.com/site/ryanbharvey/CandidacyTalk_RBHarvey_20100517_final.pdf" target="_blank">
+                                <i class="fa fa-lg fa-desktop"></i>
+                                View slides online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Given: May 16, 2010
+                                </small>
+                              </p>
+                              <p class="clear-margin">Doctoral Candidacy Exam for the Doctor of Philosophy program in Applied Mathematics, Applied Statistics and Scientific Computing. (I passed.)</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Given:
+                                May 16, 2010
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    A Survey of Research on the Use and Development of Physical Models and Nonlinear Dynamics for Music and Sound Synthesis
+                                </strong>,&nbsp;
+                                University of Maryland
+                              </p>
+                              <p class="clear-margin-sm">
+                                
+                                <a href="https://drive.google.com/file/d/1CzzZ4YDmxaYRshbAKUVwbRBZftq9mXFA05mRFfqbw_Kdy-JAiRIauDGiXrzm" target="_blank">
+                                <i class="fa fa-lg fa-file-text-o"></i>
+                                View paper online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Published: May 19, 2004
+                                </small>
+                              </p>
+                              <p class="clear-margin">The attempt of this paper is to give an overview of previous research in the ﬁeld of sound and music synthesis using physical models of musical instruments and studies of the nonlinear dynamics of those models. Models considered are limited to those instruments producing sustained tones. Chua’s circuit, and its generalization, Chua’s oscillator, are described and detailed, including many of the dynamical phenomena associated with them. Musical concepts important to the models are discussed, as well as the time-delayed Chua’s circuit and its usefulness as a candidate for a synthesizing standard. Prospects for future research are also discussed.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Published:
+                                May 19, 2004
+                              </p>
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    Simulation of a Multiprogramming System Using a Multiple Processor Model
+                                </strong>,&nbsp;
+                                First Southern Symposium on Computing, University of Southern Mississippi
+                              </p>
+                              <p class="clear-margin-sm">
+                                
+                                <a href="https://drive.google.com/file/d/0B4O3Qws0_CejM0xQcmNlTHpkcUU" target="_blank">
+                                <i class="fa fa-lg fa-file-text-o"></i>
+                                View paper online</a>
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Published: Dec 03, 1996
+                                </small>
+                              </p>
+                              <p class="clear-margin">The field of multiple processor computer systems has experienced extensive growth in recent years. In order to operate these systems practically, an operating system or extensions must be developed to adequately handle multiple processors. In this paper, several versions of a multiprogramming multiprocessor system are simulated.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                Published:
+                                Dec 03, 1996
+                              </p>
+                            </div>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="detail" id="interests">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-heart"></i>
+                    <span class="mobile-title">What do you enjoy</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      What do you enjoy? <span class="grey">Interests</span>
+                    </h4>
+
+                    <div class="content">
+                      <div class="space-top labels">
+                          <span class="label label-keyword">reading</span>
+                          <span class="label label-keyword">mystery literature</span>
+                          <span class="label label-keyword">coding</span>
+                          <span class="label label-keyword">music</span>
+                          <span class="label label-keyword">cello</span>
+                          <span class="label label-keyword">bass guitar</span>
+                          <span class="label label-keyword">judo</span>
+                          <span class="label label-keyword">Japan</span>
+                          <span class="label label-keyword">Japanese literature</span>
+                          <span class="label label-keyword">Japanese animation</span>
+                          <span class="label label-keyword">fantasy literature</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail" id="references">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-thumbs-up"></i>
+                    <span class="mobile-title">Who can vouch for you?</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Who can vouch for you? <span class="grey">Testimonials</span>
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/akirkorian" target="_blank"><strong>Alen Kirkorian</strong></a>, 
+                              Nov 2014 <span class="reference-relationship">(worked with Ryan at Kitchology Inc.)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan focuses on the bigger picture -- not just the bandaid. He&#x27;s a great developer and manager and would be my first choise for implementing a solution that can scale from a small size to supporting an enterprise wide solution.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/paulsdonohue" target="_blank"><strong>Paul Donohue</strong></a>, 
+                              Nov 2013 <span class="reference-relationship">(worked with Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is an excellent project manager. His personality and enthusiasm make him a great collaborator, his drive and dedication help push projects in good directions, and he is not afraid to get his hands dirty and directly apply his extensive knowledge to get the job done. He consistently amazes me with the number of different things he manages to juggle simultaneously, yet somehow he excels on all of them, and still manages to be detail-oriented.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/alain-briancon/0/15a/701" target="_blank"><strong>Alain Briancon</strong></a>, 
+                              Nov 2013 <span class="reference-relationship">(managed Ryan at Kitchology Inc.)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is a key contributor to Kitchology a Maryland based startup providing a web/mobile data platform for families with dietary needs balance between nutrition, time and money.
+
+At the core of Kitchology is a series of database and ontology library that is used for connecting consumer activities. Because the usage models of this system is not set in stone, we need to architect the platform with the right level of flexibility and foresight for both use by consumer and operation by Kitchology. This is where Ryan shines.
+
+Ryan brings a unique blend of engineering and architectural design for data-centric and algorithm-centric systems along real-life experience in deploying and operating systems.
+
+Ryan is often the voice of reason when we make decisions that solve short term problems but might create problems in the long term. He does that for analytics, debugging process, design of database, choice of encoding mechanisms, interface to wireless systems, among others.
+
+Ryan has a good insight for database complexity and architecture. He has a encycopledic knowledge of services and tools from third parties that should be used as a buy (rather than a make).
+
+Ryan has tremendous work ethics, putting long hours to help move design and redesign along. He is willing to take on the dirty non glamorous tasks on behalf of others.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/matthew-dantas-mccutcheon/44/315/641" target="_blank"><strong>Matthew Dantas-McCutcheon</strong></a>, 
+                              Nov 2013 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is fundamentally curious, fiercely fastidious and resourceful in solving real, hard problems, managing talented teams, and building great software. He has a passion for bringing open source, big data and best-in-industry practices to bear on revolutionizing the tools that make the federal government work. His talents encompass architecting software, mentoring, translating user needs into features, and managing time and development resources to ship quality software.
+
+Besides being extremely technically capable, Ryan is genuinely kind and warm human being. He is a pleasure to work for and knows how to inspire his team and allow them to build great things. His many and diverse interests - big data, Japanese, jazz, health, and advanced mathematics to name just a few - not only make him a fascinating and delightful person to talk to, but also inform his broad curiosity for and ability to solve hard business and technical problems.
+
+I recommend Ryan strongly for the IT manager position of his choosing at the front lines of innovation in government, commercial software, or academia. He is a complete, all-around asset to any team fortunate to have him.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/janisa-lasalle/80/a90/84b" target="_blank"><strong>Janisa LaSalle</strong></a>, 
+                              May 2014 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan has a great deal of knowledge in various areas. This includes Design, Front-end Development, Back-end Development, Database Development, Project Management and Agile Processes (and many more). This level of expertise has been very instrumental in leading a diverse IT team. Not only does it help him to appropriately delegate tasks but he also understands the estimated Level of Effort it will take to complete tasks. If needed, he has no problem writing code or database queries to help the team succeed. He is able to communicate with all members of the team and upper management by &quot;speaking their language&quot;.
+
+It is no surprise that Ryan has a passion for education. He is always researching the latest tools as well as studying the historical trends of technology. He also encourages learning to everyone around him. He participates in various technology meet-ups and major conferences to stay ahead of the curve. He has taken on larger tasks by conducting training to colleges and upper management on Web Accessibility and by participating in various presentations, where he informed clients of the web-based tools provided by OMB.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/robert-mann/29/469/624" target="_blank"><strong>Robert Mann</strong></a>, 
+                              Nov 2013 <span class="reference-relationship">(reported to Ryan at Executive Office of the President)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan has shown himself to be very knowledgeable of many different technologies and practices and is committed to finding the best solution for a given problem. He is willing to shoulder more responsibility to move the project and organization in the right direction. Perhaps most important is his accessibility. Whether work-related or not, I know that I can always approach him for insight into something I am working on.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/ephraim" target="_blank"><strong>Ephraim Feig</strong></a>, 
+                              Oct 2013 <span class="reference-relationship">(managed Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan was one of our Hardy-Apfel Fellows at Social Security. That, by itself, says a lot. He is smart, dedicated, fun and somebody you want close when confronting tough challenges. He can think broadly and dig deep into the details. I definitely enjoyed having him around at SSA.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/haffiz-momodu-mba-pmp-cissp-ocp/8/192/710" target="_blank"><strong>Haffiz Momodu</strong></a>, 
+                              Mar 2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is an exceptionally gifted individual complimented with a confident and composed demeanor. In my association with him, he is one of the most perceptive and forward-thinking technical professional I have come across. He is a natural leader whose skills encompass both the technical know how and managerial abilities.
+
+Since Ryan joined Social Security Administration (SSA) - he has been instrumental in planning, reengineering, and developing the Agency&#x27;s strategic plans. He has worked in numerous complex and mission critical assignments such as strategizing and planning for the health IT initiatives, business process reengineering, and the development of the SSA long-term vision.
+
+Above all, he has a very pleasant disposition and energetic personality. I highly recommend him.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/john-wan/4/79a/a65" target="_blank"><strong>John Wan</strong></a>, 
+                              Mar 2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">I have the pleasure of knowing Ryan personally in several different capacities, and have always known him to be a confident and intelligent individual. His thirst for knowledge and the keen awareness of the latest technical trends and innovations is rare. I know that both his professional and scholastic experiences will make him an excellent resource for any organization.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/karen-palm/29/7a3/b6" target="_blank"><strong>Karen Palm</strong></a>, 
+                              Mar 2011 <span class="reference-relationship">(mentored Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan has a lot of experience working with executives and explaining very technical issues in ways they understand. His presentation skills to audiences of all levels are superb.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/sivasankar-kande/0/446/6b1" target="_blank"><strong>Sivasankar Kande</strong></a>, 
+                              Mar 2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">I worked with Ryan in the same group over two years. I have found him to be a pleasant, generous person who is never afraid to take on a challenging task. He has been one of our most dedicated employees.
+
+Ryan is an independent, self directed person who is able to communicate effectively and meet even the most demanding challenges. During his tenure here, he set an unprecedented record in applying the Health IT for streamlining the disability determiniation process. I highly recommend him.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/shashmi" target="_blank"><strong>Sonny Hashmi</strong></a>, 
+                              Feb 2011 <span class="reference-relationship">(attended the University of Maryland Innovation Management program with Ryan)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">I met Ryan while attending the University of Maryland - Masters Certificate in Innovation Management program. Ryan and I have stayed in touch since our time at UMD. I have found Ryan to be an exceptionally brilliant individual with a passion for making a positive difference through his work. Ryan is motivated and engaging and challenges his colleagues to think outside the box. I would welcome the opportunity to work with Ryan and feel that he would make an excellent and highly valuable addition to any organization.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/carlson-t/18/768/753" target="_blank"><strong>Carlson T</strong></a>, 
+                              Feb 2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is an intelligent and dedicated professional. Something of a polymath, he is well-versed in a variety of subjects and proficient at many activities: mathematics, computing, systems engineering, Japanese culture and history, music, and more. His intense engagement in the problem at hand and his tendency to dig for the broader or deeper view makes him invaluable in problem solving sessions. When brainstorming, Ryan&#x27;s many and varied ideas ensure a divergent collection of potential solutions. He is a proficient speaker and communicates well in writing. He is able to craft his language to audiences from front line individuals to academics to top-level executives. As an added benefit, Ryan is fun to work with and sure to lighten the atmosphere during crunch times. I highly recommend him for his work.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/stevendyoung" target="_blank"><strong>Steven Young</strong></a>, 
+                              Feb 2011 <span class="reference-relationship">(worked with Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan has an infectious enthusiastic attitude and a laser focus on strategic and innovative thinking.
+
+During my time in the Hardy-Apfel IT Fellows program, Ryan lead a program to bring individuals from the fellows program together with executive decision makers to present ideas and foster innovation.
+
+He carefully engineered a nurturing academic environment that encouraged the exploration of creative new ideas while providing a direct communications channel to C-level decision makers.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/jasonfichtner" target="_blank"><strong>Jason Fichtner</strong></a>, 
+                              Feb 2011 <span class="reference-relationship">(managed Ryan at Social Security Administration)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is a smart and dedicated professional with the ability to think creatively and constructively to solve large-scale IT challenges.
+
+The Social Security Administration has less than 10 slots per year for the prestigious Hardy-Apfel IT Fellowship. The program is designed to fill a gap in government information technology hiring by targeting the top IT schools in the country. Selected candidates are provided rotational leadership experiences throughout the Social Security Administration and have access to the Agency&#x27;s upper-level executive leadership team. The candidates are selected based on their overall IT skills, ability to think differently and creatively about how to solve large-scale government information technology challenges, as well as demonstrate a commitment to service.
+
+Acting as the #2 official for the Agency, I was on the selection committee that offered Ryan a Fellowship. Ryan exhibits all of these characteristics and is an excellent IT professional. We developed a professional relationship that continues to this day. While Ryan will surely excel in any career path he chooses, I personally hope he stays in public service. The government needs people like Ryan Harvey.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/in/sharonroushdy" target="_blank"><strong>Sharon Roushdy</strong></a>, 
+                              Nov 2008 <span class="reference-relationship">(worked with Ryan at University of Maryland)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">I am very happy to recommend Ryan. During the two years he worked for us as a GA, he was extremely capable and very motivated to learn, explore, and tackle every challenge given to him. In addition, he was dependable and, simply, lots of fun to work with.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/james-tanis/10/28b/34b" target="_blank"><strong>James Tanis</strong></a>, 
+                              Dec 2008 <span class="reference-relationship">(attended University of Maryland PhD program with Ryan)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan is an expert computer scientist and is doing very interesting work for his PhD thesis on dimensionality reduction. He is also a talented teacher, which I know from first-hand experience. I am happy to recommend him for his graduate work.</p>
+                            </blockquote>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <a href="https://www.linkedin.com/pub/maria-calzada/b/984/667" target="_blank"><strong>Maria Calzada</strong></a>, 
+                              Nov 2008 <span class="reference-relationship">(taught Ryan at Loyola University New Orleans)</span>
+                            </p>
+                            <blockquote class="quote">
+                              <p class="clear-margin">Ryan was on top of the class. He is bright, engaged and hard working. His work was always first class. He is one of those people you do not hesitate to recommend for anything.</p>
+                            </blockquote>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
+  </body>
+</html>
