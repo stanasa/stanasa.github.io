@@ -31,6 +31,12 @@ module.exports = function(grunt) {
                 src: [ 'theme.css' ],
                 dest: './build/assets/css',
                 expand: true
+            },
+            favicon: {
+                cwd: './',
+                src: [ 'favicon.ico' ],
+                dest: './build/',
+                expand: true
             }
         },
         clean: {
@@ -67,5 +73,5 @@ module.exports = function(grunt) {
 
     // Default tasks
     grunt.registerTask('default', [ 'exec' ]);
-    grunt.registerTask('build', [ 'clean', 'copy:build', 'cssmin', 'exec:build_index' ]);
+    grunt.registerTask('build', [ 'clean', 'copy:build', 'cssmin', 'exec:build_index', 'copy:favicon' ]);
 }
