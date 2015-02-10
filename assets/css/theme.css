@@ -249,9 +249,6 @@ a:hover {
   visibility: hidden;
   overflow: hidden;
 }
-.floating-nav .floating-nav-menu-title {
-  display: inline-block;
-}
 .floating-nav ul {
   font-size: 1.2em;
   margin: 0;
