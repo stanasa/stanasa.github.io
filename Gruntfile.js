@@ -26,6 +26,12 @@ module.exports = function(grunt) {
             }
         },
         copy: {
+            resumejson: {
+                cwd: './',
+                src: [ 'resume.json' ],
+                dest: './node_modules/resume-schema',
+                expand: true
+            },
             build: {
                 cwd: './assets/css',
                 src: [ 'theme.css' ],
@@ -73,5 +79,14 @@ module.exports = function(grunt) {
 
     // Default tasks
     grunt.registerTask('default', [ 'exec' ]);
-    grunt.registerTask('build', [ 'clean', 'copy:build', 'cssmin', 'exec:build_index', 'copy:favicon' ]);
+    grunt.registerTask('build', [ 
+        'copy:resumejson', 
+        'clean', 
+        'copy:build', 
+        'cssmin', 
+        'exec:build_index', 
+        'copy:favicon' 
+    ]);
 }
+
+
