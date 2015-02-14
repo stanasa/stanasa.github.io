@@ -92,39 +92,71 @@
     }],
     "education": [{
         "institution": "University of Maryland at College Park",
-        "studyType": "Doctor of Philosophy (unfinished, all but dissertation)",
+        "studyType": "Doctor of Philosophy (candidate, all but dissertation)",
         "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
         "startDate": "2007-09-01",
         "endDate": "2014-06-02",
-        "courses": []
+        "courses": [
+            "AMSC898 Pre-dissertation Research",
+            "AMSC899 Dissertation Research"
+        ]
     },{
         "institution": "University of Maryland at College Park",
         "studyType": "Master of Science",
         "area": "Applied Mathematics and Scientific Computing",
         "startDate": "2003-09-01",
         "endDate": "2007-12-31",
-        "courses": []
+        "courses": [
+            "AMSC663 Advanced Scientific Computing I",
+            "AMSC664 Advanced Scientific Computing II",
+            "AMSC666 Numerical Analysis I",
+            "AMSC670 Ordinary Differential Equations II",
+            "BIOL646 Hearing",
+            "ENEE620 Random Processes in Communications &amp; Control",
+            "MAIT679E Computational Time-Frequency Analysis",
+            "MAIT699 Independent Master's Project: Stockwell Transform",
+            "ENEE463 Digital Control Systems",
+            "ENEE425 Digital Signal Processing",
+            "AMSC452 Intro to Dynamics &amp; Chaos",
+            "AMSC466 Intro to Numerical Anaylsis I"
+        ]
     },{
         "institution": "University of Maryland at College Park",
         "studyType": "Graduate Certificate",
         "area": "Scientific Computing",
         "startDate": "2003-09-01",
         "endDate": "2007-07-31",
-        "courses": []
+        "courses": [
+            "AMSC660 Scientific Computing I",
+            "AMSC661 Scientific Computing II",
+            "AMSC662 Computer Organization &amp; Programming for Scientific Computing",
+            "ENEE630 Advanced Digital Signal Processing"
+        ]
     },{
         "institution": "University of Maryland at College Park",
         "studyType": "Graduate Certificate",
         "area": "Computational Harmonic Analysis",
         "startDate": "2003-09-01",
         "endDate": "2007-07-31",
-        "courses": []
+        "courses": [
+            "MAIT623 Mathematical Methods for Signal Processing I",
+            "MAIT624 Mathematical Methods for Signal Processing II",
+            "MAIT633 Applied Fourier Analysis",
+            "MAIT79F Special Topics: Frame Theory &amp; Applications"
+        ]
     },{
         "institution": "University of Maryland at College Park",
         "studyType": "Executive Education Certificate (non-credit)",
         "area": "Innovation Management",
         "startDate": "2010-01-02",
         "endDate": "2010-05-31",
-        "courses": []
+        "courses": [
+            "Strategies for Managing Innovation",
+            "Negotiation Techniques",
+            "Marketing in Technology-Driven Industries",
+            "Innovative Product Design & Development",
+            "Introduction to Finance"
+        ]
     },{
         "institution": "Loyola University New Orleans",
         "studyType": "Bachelor of Science",

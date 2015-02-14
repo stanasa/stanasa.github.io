@@ -83,10 +83,14 @@ module.exports = function(grunt) {
         'copy:resumejson', 
         'clean', 
         'copy:build', 
-        'cssmin', 
+/*        'cssmin',  */
         'exec:build_index', 
         'copy:favicon' 
     ]);
+    grunt.registerTask('serve', [
+        'build',
+        'exec:run_server'
+    ])
 }
 
 
