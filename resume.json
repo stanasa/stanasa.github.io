@@ -112,12 +112,12 @@
             "AMSC666 Numerical Analysis I",
             "AMSC670 Ordinary Differential Equations II",
             "BIOL646 Hearing",
-            "ENEE620 Random Processes in Communications &amp; Control",
+            "ENEE620 Random Processes in Communications & Control",
             "MAIT679E Computational Time-Frequency Analysis",
             "MAIT699 Independent Master's Project: Stockwell Transform",
             "ENEE463 Digital Control Systems",
             "ENEE425 Digital Signal Processing",
-            "AMSC452 Intro to Dynamics &amp; Chaos",
+            "AMSC452 Intro to Dynamics & Chaos",
             "AMSC466 Intro to Numerical Anaylsis I"
         ]
     },{
@@ -129,7 +129,7 @@
         "courses": [
             "AMSC660 Scientific Computing I",
             "AMSC661 Scientific Computing II",
-            "AMSC662 Computer Organization &amp; Programming for Scientific Computing",
+            "AMSC662 Computer Organization & Programming for Scientific Computing",
             "ENEE630 Advanced Digital Signal Processing"
         ]
     },{
@@ -142,7 +142,7 @@
             "MAIT623 Mathematical Methods for Signal Processing I",
             "MAIT624 Mathematical Methods for Signal Processing II",
             "MAIT633 Applied Fourier Analysis",
-            "MAIT79F Special Topics: Frame Theory &amp; Applications"
+            "MAIT79F Special Topics: Frame Theory & Applications"
         ]
     },{
         "institution": "University of Maryland at College Park",
