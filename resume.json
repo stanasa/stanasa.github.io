@@ -29,12 +29,21 @@
             "username": "ryan.b.harvey",
             "url": "https://www.facebook.com/ryan.b.harvey"
         }, {
-            "network": "google+",
-            "username": "ryan.b.harvey",
+            "network": "googleplus",
+            "username": "RyanBHarvey",
             "url": "https://plus.google.com/u/0/+RyanBHarvey"
         }, {
-            "network": "skype",
-            "username": "nihonjinrxs"
+            "network": "youtube",
+            "username": "nihonjinrxs",
+            "url": "https://www.youtube.com/user/nihonjinrxs"
+        }, {
+            "network": "tumblr",
+            "username": "nihonjinrxs",
+            "url": "http://nihonjinrxs.tumblr.com/"
+        }, {
+            "network": "foursquare",
+            "username": "nihonjinrxs",
+            "url": "https://foursquare.com/nihonjinrxs"
         }, {
             "network": "codeschool",
             "username": "ryanbharvey",
