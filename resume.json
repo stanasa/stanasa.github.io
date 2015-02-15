@@ -227,6 +227,7 @@
     }],
     "publications": [{
         "name": "JSON Processing in the Database using PostgreSQL 9.4",
+        "publicationType": "talk",
         "publisher": "Data Wranglers DC",
         "releaseDate": "2015-01-07",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/219112410/",
@@ -237,6 +238,7 @@
         "summary": "I gave a talk on getting, processing, and reshaping JSON data for use in data analysis using PostgreSQL 9.4 at the Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk gave an introduction to JSON data, the JSON data types, operators and functions available in the newly released (December 18, 2014) PostgreSQL version 9.4, as well as two examples of pulling JSON data directly from public APIs into PostgreSQL and processing them in the database into analysis style flat tables."
     },{
         "name": "Manipulating Data in Style with SQL",
+        "publicationType": "talk",
         "publisher": "Polyglot Programming DC",
         "releaseDate": "2014-10-14",
         "website": "http://www.meetup.com/Polyglot-Programming-DC/events/208670052/",
@@ -247,6 +249,7 @@
         "summary": "I gave a talk on SQL to the Polyglot Programming DC meetup group. The talk gave an introduction to SQL and its use for relational databases, as well as some examples of using SQL on DataFrame data structures in R and Python."
     },{
         "name": "SQL, the Sequel",
+        "publicationType": "talk",
         "publisher": "Data Wranglers DC",
         "releaseDate": "2014-08-06",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/177269432/",
@@ -257,6 +260,7 @@
         "summary": "I gave another talk on SQL and its utility for data preprocessing and analysis tasks to Data Wranglers DC meetup group, a member meetup of the Data Community DC (http://datacommunity.org). The talk covered topics such as custom views and functions in databases (with examples using PostgreSQL), performance tuning of queries using explain and indexes, basics of relational algebra, as well as use of SQL statements to manipulate dataframe objects in R and Python."
     },{
         "name": "Data Wrangling in SQL and Other Tools",
+        "publicationType": "talk",
         "publisher": "Data Wranglers DC",
         "releaseDate": "2014-06-04",
         "website": "http://www.meetup.com/Data-Wranglers-DC/events/171768162/",
@@ -267,6 +271,7 @@
         "summary": "I gave a talk on the basics SQL and its utility for data preprocessing and analysis tasks to the Data Wrangers DC meetup group, a member meetup of the Data Community DC (http://datacommunitydc.org). The talk covered an introduction to relational data, database tools, and the SQL standard, as well as the basics of SQL select statements, common table expressions and creating views from select statements. In addition, the use of relevant libraries in R and Python to connect to data in relational databases were explained using examples with PostgreSQL, IPython notebooks, and RMarkdown."
     },{
         "name": "Creating an API using the OMB's Public Budget Database",
+        "publicationType": "talk",
         "publisher": "Open Analytics Summit DC",
         "releaseDate": "2013-03-25",
         "website": "http://www.openanalyticssummit.com/dc-schedule/",
@@ -276,6 +281,7 @@
         "summary": "At this summit, I gave a talk on some of the work I'd been doing on building a dataset on the OMB Public Budget Database as part my doctoral dissertation. In short, my message was \"If you need an API on government data for something you're doing, build one!\" I tried to provide tools and perspective on how that can be accomplished."
     },{
         "name": "Methods of Manifold Learning for Dimension Reduction of Large Data Sets",
+        "publicationType": "talk",
         "publisher": "University of Maryland",
         "releaseDate": "2010-05-17",
         "links": {
@@ -284,6 +290,7 @@
         "summary": "Doctoral Candidacy Exam for the Doctor of Philosophy program in Applied Mathematics, Applied Statistics and Scientific Computing. (I passed.)"
     },{
         "name": "A Survey of Research on the Use and Development of Physical Models and Nonlinear Dynamics for Music and Sound Synthesis",
+        "publicationType": "paper",
         "publisher": "University of Maryland",
         "releaseDate": "2004-05-20",
         "links": {
@@ -292,6 +299,7 @@
         "summary": "The attempt of this paper is to give an overview of previous research in the ﬁeld of sound and music synthesis using physical models of musical instruments and studies of the nonlinear dynamics of those models. Models considered are limited to those instruments producing sustained tones. Chua’s circuit, and its generalization, Chua’s oscillator, are described and detailed, including many of the dynamical phenomena associated with them. Musical concepts important to the models are discussed, as well as the time-delayed Chua’s circuit and its usefulness as a candidate for a synthesizing standard. Prospects for future research are also discussed."
     },{
         "name": "Simulation of a Multiprogramming System Using a Multiple Processor Model",
+        "publicationType": "paper",
         "publisher": "First Southern Symposium on Computing, University of Southern Mississippi",
         "releaseDate": "1996-12-04", 
         "links": {
