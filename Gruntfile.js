@@ -43,20 +43,19 @@ module.exports = function(grunt) {
                 src: [ 'favicon.ico' ],
                 dest: './build/',
                 expand: true
+            },
+            api: {
+                cwd: './',
+                src: [ 'resume.json' ],
+                dest: './build/',
+                expand: true
             }
         },
         clean: {
             build: {
                 src: [ 'build' ]
             }
-        },
-        cssmin: {
-          build: {
-            files: {
-              './build/theme.css': [ './build/theme.css' ]
-            }
-          }
-        },
+        }
     });
 
     // Load the plugin that compiles less to css
@@ -74,18 +73,15 @@ module.exports = function(grunt) {
     // Load the plugin to copy files
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    // Load the plugin to minify CSS
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-
     // Default tasks
     grunt.registerTask('default', [ 'exec' ]);
     grunt.registerTask('build', [ 
         'copy:resumejson', 
         'clean', 
         'copy:build', 
-/*        'cssmin',  */
         'exec:build_index', 
-        'copy:favicon' 
+        'copy:favicon',
+        'copy:api'
     ]);
     grunt.registerTask('serve', [
         'build',
