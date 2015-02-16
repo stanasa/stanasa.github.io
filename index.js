@@ -63,6 +63,9 @@ function getUrlFromUsername( site, username ) {
         angellist: 'angel.co',
         bitbucket: 'bitbucket.org',
         googleplus: 'plus.google.com',
+        tumblr: 'tumblr.com',
+        youtube: 'www.youtube.com',
+        gratipay: 'gratipay.com',
         skype: 'none'
     };
 
@@ -79,7 +82,11 @@ function getUrlFromUsername( site, username ) {
         case 'spotify':
             return '//' + 'open.' + url_map[ site ] + '/user/' + username;
         case 'googleplus':
-            return '//' + url_map[site] + '/u/0/+' + username;
+            return '//' + url_map[ site ] + '/u/0/+' + username;
+        case 'tumblr':
+            return '//' + username + '.' + url_map[ site ];
+        case 'youtube':
+            return '//' + url_map[ site ] + '/user/' + username;
         default:
             return '//' + url_map[ site ] + '/' + username;
     }
@@ -93,7 +100,8 @@ function render(resume) {
                         "soundcloud", "pinterest", "vimeo", "behance",
                         "codepen", "foursquare", "reddit", "spotify",
                         "dribble", "dribbble", "facebook", "angellist",
-                        "bitbucket", "googleplus", "skype"],
+                        "bitbucket", "googleplus", "skype", "youtube",
+                        "tumblr", "gratipay"],
         date_format = 'MMM YYYY';
         input_date_format = 'YYYY-MM-DD';
 
