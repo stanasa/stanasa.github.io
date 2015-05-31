@@ -126,11 +126,11 @@ function render(resume) {
             end_date = work_info.endDate && new Date( work_info.endDate );
 
         if ( start_date ) {
-            work_info.startDate = moment( start_date ).format( date_format );
+            work_info.startDate = moment( start_date ).format( date_format ).replace(/ /gi, '&nbsp;');
         }
 
         if ( end_date ) {
-            work_info.endDate = moment( end_date ).format( date_format );
+            work_info.endDate = moment( end_date ).format( date_format ).replace(/ /gi, '&nbsp;');
         }
 
         did_leave_company = !! end_date;
@@ -171,20 +171,22 @@ function render(resume) {
             var date_obj = new Date( education_info[ date ] );
 
             if ( education_info[ date ] ) {
-                education_info[ date ] = moment( date_obj ).format( date_format );
+                education_info[ date ] = moment( date_obj )
+                    .format( date_format ).replace(/ /gi, '&nbsp;');
             }
         });
     });
 
     _.each( resume.awards, function( award_info ) {
         if ( award_info.date ) {
-            award_info.date = moment( new Date( award_info.date ) ).format( 'YYYY' )
+            award_info.date = moment( new Date( award_info.date ) ).format( 'YYYY' );
         }
     });
 
     _.each( resume.publications, function( publication_info ) {
         if ( publication_info.releaseDate ) {
-            publication_info.releaseDate = moment( new Date( publication_info.releaseDate ) ).format( 'MMM DD, YYYY' )
+            publication_info.releaseDate = moment( new Date( publication_info.releaseDate ) )
+                        .format( 'MMM DD, YYYY').replace(/ /gi, '&nbsp;');
             publication_info.isTalk = publication_info.publicationType ==  'talk';
             publication_info.isPaper = publication_info.publicationType == 'paper';
         }
@@ -195,14 +197,14 @@ function render(resume) {
             var date_obj = new Date( volunteer_info[ date ] );
 
             if ( volunteer_info[ date ] ) {
-                volunteer_info[ date ] = moment( date_obj ).format( date_format );
+                volunteer_info[ date ] = moment( date_obj ).format( date_format ).replace(/ /gi, '&nbsp;');
             }
         });
     });
 
     _.each( resume.references, function( reference_info ) {
         if ( reference_info.date ) {
-            reference_info.date = moment( new Date( reference_info.date ) ).format( date_format );
+            reference_info.date = moment( new Date( reference_info.date ) ).format( date_format ).replace(/ /gi, '&nbsp;');
         }
     });
 

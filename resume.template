@@ -63,7 +63,7 @@
                 </a>
               </li>
             {{/if}}
-            {{#if resume.publications}}
+            {{#if resume.public}}
               <li>
                 <a href="#publications">
                   <i class="fa fa-book"></i>Talks &amp; Papers
@@ -297,9 +297,9 @@
                           <p class="text-muted visible-xs visible-sm">
                             <small>
                               <span class="space-right">
-                                {{startDate}} -
+                                {{{startDate}}} -
                                 {{#if endDate}}
-                                  {{endDate}}
+                                  {{{endDate}}}
                                 {{else}}
                                   Present
                                 {{/if}}
@@ -326,14 +326,14 @@
                         <div class="sidebar text-muted text-center hidden-xs hidden-sm">
                           {{#if startDate}}
                             <p>
-                              <strong>Joined:</strong>&nbsp;
-                              {{startDate}}
+                              <strong>Joined:</strong>
+                              {{{startDate}}}
                             </p>
 
                             <p>
                               {{#if endDate}}
-                                <strong>Left:</strong>&nbsp;
-                                {{endDate}}
+                                <strong>Left:</strong>
+                                {{{endDate}}}
                               {{else}}
                                 <span class="label label-success">
                                   Currently Working
@@ -416,9 +416,9 @@
                             </p>
                             <p class="visible-xs visible-sm text-muted">
                               <small>
-                                {{startDate}} -
+                                {{{startDate}}} -
                                 {{#if endDate}}
-                                  {{endDate}}
+                                  {{{endDate}}}
                                 {{else}}
                                   Present
                                 {{/if}}
@@ -433,13 +433,13 @@
                           </div>
                           <div class="sidebar text-muted text-center hidden-xs hidden-sm">
                             <p>
-                              <strong>Started:</strong>&nbsp;
-                              {{startDate}}
+                              <strong>Started:</strong>
+                              {{{startDate}}}
                             </p>
                             <p>
                               {{#if endDate}}
-                                <strong>Completion:</strong>&nbsp;
-                                {{endDate}}
+                                <strong>Completion:</strong>
+                                {{{endDate}}}
                               {{else}}
                                 <span class="label label-success">
                                   Currently Pursuing
@@ -480,9 +480,9 @@
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  {{startDate}} -
+                                  {{{startDate}}} -
                                   {{#if endDate}}
-                                    {{endDate}}
+                                    {{{endDate}}}
                                   {{else}}
                                     Present
                                   {{/if}}
@@ -497,13 +497,13 @@
                             </div>
                             <div class="sidebar hidden-xs hidden-sm text-muted text-center">
                               <p>
-                                <strong>Since:</strong>&nbsp;
-                                {{startDate}}
+                                <strong>Since:</strong>
+                                {{{startDate}}}
                               </p>
                               <p>
                                 {{#if endDate}}
-                                  <strong>Until:</strong>&nbsp;
-                                  {{endDate}}
+                                  <strong>Until:</strong>
+                                  {{{endDate}}}
                                 {{else}}
                                   <span class="label label-success">
                                     Currently Volunteering
@@ -568,7 +568,7 @@
                               {{/if}}
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  {{#if isTalk}}Given{{/if}}{{#if isPaper}}Published{{/if}}: {{releaseDate}}
+                                  {{#if isTalk}}Given{{/if}}{{#if isPaper}}Published{{/if}}: {{{releaseDate}}}
                                 </small>
                               </p>
                               <p class="clear-margin">{{summary}}</p>
@@ -576,7 +576,7 @@
                             <div class="sidebar text-muted text-center hidden-sm hidden-xs">
                               <p>
                                 {{#if isTalk}}Given{{/if}}{{#if isPaper}}Published{{/if}}:
-                                {{releaseDate}}
+                                {{{releaseDate}}}
                               </p>
                             </div>
                           </li>
@@ -609,7 +609,7 @@
                               </p>
                               <p class="visible-xs visible-sm text-muted">
                                 <small>
-                                  Awarded: {{date}}
+                                  Awarded: {{{date}}}
                                 </small>
                               </p>
                               <p class="clear-margin"> {{summary}} </p>
@@ -667,7 +667,7 @@
                           <li class="card card-nested">
                             <p>
                               <a href="{{profile}}" target="_blank"><strong>{{name}}</strong></a>, 
-                              {{date}} <span class="reference-relationship">({{relationship}})</span>
+                              {{{date}}} <span class="reference-relationship">({{relationship}})</span>
                             </p>
                             <blockquote class="quote">
                               <p class="clear-margin">{{reference}}</p>

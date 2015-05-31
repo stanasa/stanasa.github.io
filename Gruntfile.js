@@ -68,7 +68,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-exec');
 
     // Load the plugin to clean directories
-    grunt.loadNpmTasks('grunt-contrib-clean')
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // Load the plugin to copy files
     grunt.loadNpmTasks('grunt-contrib-copy');
