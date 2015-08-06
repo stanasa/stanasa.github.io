@@ -1,8 +1,8 @@
-# [datascientist.guru](http://datascientist.guru) -- Ryan Bensussan Harvey's online resume & CV
+# [stanasa.github.io](stanasa.github.io) -- Serban Tanasa's online resume & CV
 
 ## Take a look! Ask questions!
 
-I'm happy to chat with anyone interested in my skills and experience, or with questions about what's in my online resume.  Please feel free to contact me via one of the methods [on the site](http://datascientist.guru).
+I'm happy to chat with anyone interested in my skills and experience, or with questions about the contents of my online resume.  Please feel free to contact me via one of the methods listed [on the site](stanasa.github.io).
 
 ## This site was built using:
 
@@ -13,7 +13,7 @@ I'm happy to chat with anyone interested in my skills and experience, or with qu
 
 As with the JSON Resume project and the Elegant Theme, this site and it's content are offered under [the MIT License](http://opensource.org/licenses/mit-license.php), included here (with copyright claimed only for those changes made by me):
 
-> Copyright (c) 2015 Ryan Bensussan Harvey
+> Copyright (c) 2015 Serban Tanasa
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
