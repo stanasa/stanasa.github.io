@@ -1,4 +1,4 @@
-# [stanasa.github.io]((http://stanasa.github.io) -- Serban Tanasa's online resume & CV
+# [stanasa.github.io](http://stanasa.github.io) -- Serban Tanasa's online resume & CV
 
 ## Take a look! Ask questions!
 
