@@ -1,8 +1,8 @@
-# [stanasa.github.io](stanasa.github.io) -- Serban Tanasa's online resume & CV
+# [stanasa.github.io]((http://stanasa.github.io) -- Serban Tanasa's online resume & CV
 
 ## Take a look! Ask questions!
 
-I'm happy to chat with anyone interested in my skills and experience, or with questions about the contents of my online resume.  Please feel free to contact me via one of the methods listed [on the site](stanasa.github.io).
+I'm happy to chat with anyone interested in my skills and experience, or with questions about the contents of my online resume.  Please feel free to contact me via one of the methods listed [on the site](http://stanasa.github.io).
 
 ## This site was built using:
 
