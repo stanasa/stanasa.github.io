@@ -14,12 +14,8 @@
         },
         "profiles": [{
             "network": "github",
-            "username": "nihonjinrxs",
-            "url": "https://github.com/nihonjinrxs"
-        }, {
-            "network": "github",
-            "username": "ryanbharvey",
-            "url": "https://github.com/ryanbharvey"
+            "username": "stanasa",
+            "url": "https://github.com/stanasa"
         }, {
             "network": "twitter",
             "username": "serbantanasa",
