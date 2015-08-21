@@ -1,14 +1,14 @@
 {
     "basics": {
-        "name": "Ryan Bensussan Harvey",
-        "label": "Coder, Datahead, PM, Wonk, Dad.",
+        "name": "Serban Tanasa",
+        "label": "Data Scientist, Transhumanist, Nerd.",
         "picture": "http://www.gravatar.com/avatar/fdca5fdaa9db660b42d4a49557f3dd94.png",
-        "summary": "I'm a fun-loving geek who is driven to create useful things (mostly with code) almost as much as I am called to teach others how to do it themselves. I enjoy diving into data and have been known to get lost in SQL at times. I'm passionate about clean, purposeful interfaces and joyous user experiences. I read lots of books, but never seem to get through my reading list. I'm a happy husband and father of two.",
-        "email": "ryan.b.harvey@gmail.com",
-        "phone": "301-375-0678",
-        "website": "http://about.me/ryan.b.harvey",
+        "summary": "I am fanatical in my passion for understanding data and have been known to get lost for days parsing public databases in R or SQL at times. I'm an avid sci-fi fan, enjoy extreme sports and actively practice martial arts.",
+        "email": "serban.tanasa@gmail.com",
+        "phone": "781-999-0864",
+        "website": "http://serban.tanasa.com",
         "location": {
-            "city": "Lanham",
+            "city": "Silver Spring",
             "region": "MD",
             "countryCode": "USA"
         },
@@ -22,122 +22,94 @@
             "url": "https://github.com/ryanbharvey"
         }, {
             "network": "twitter",
-            "username": "CodeAndData",
-            "url": "https://twitter.com/CodeAndData"
+            "username": "serbantanasa",
+            "url": "https://twitter.com/serbantanasa"
         }, {
             "network": "linkedin",
-            "username": "ryan.b.harvey",
-            "url": "https://www.linkedin.com/in/ryanbharvey"
+            "username": "serbantanasa",
+            "url": "https://www.linkedin.com/in/serbantanasa"
         }, {
             "network": "facebook",
-            "username": "ryan.b.harvey",
-            "url": "https://www.facebook.com/ryan.b.harvey"
+            "username": "serban.tanasa",
+            "url": "https://www.facebook.com/serban.tanasa"
         }, {
             "network": "googleplus",
-            "username": "RyanBHarvey",
-            "url": "https://plus.google.com/u/0/+RyanBHarvey"
-        }, {
-            "network": "youtube",
-            "username": "nihonjinrxs",
-            "url": "https://www.youtube.com/user/nihonjinrxs"
-        }, {
-            "network": "tumblr",
-            "username": "nihonjinrxs",
-            "url": "http://nihonjinrxs.tumblr.com/"
-        }, {
-            "network": "foursquare",
-            "username": "nihonjinrxs",
-            "url": "https://foursquare.com/nihonjinrxs"
+            "username": "SerbanTanasa",
+            "url": "https://plus.google.com/u/0/+SerbanTanasa"
         }, {
             "network": "bitbucket",
-            "username": "nihonjinrxs",
-            "url": "https://bitbucket.org/NihonjinRXS"
-        }, {
-            "network": "bountysource",
-            "username": "31120",
-            "url": "https://www.bountysource.com/people/31120"
-        }, {
-            "network": "codeschool",
-            "username": "ryanbharvey",
-            "url": "https://codeschool.com/users/ryanbharvey"
+            "username": "stanasa",
+            "url": "https://bitbucket.org/stanasa"
         }, {
             "network": "skype",
-            "username": "nihonjinrxs"
-        }, {
-            "network": "codepen",
-            "username": "nihonjinrxs",
-            "url": "http://codepen.io/nihonjinrxs/"
-        }, {
-            "network": "gratipay",
-            "username": "nihonjinrxs",
-            "url": "https://gratipay.com/nihonjinrxs/"
+            "username": "serbantanasa"
         }]
     },
     "work": [{
-        "startDate": "2012-04-02",
+        "startDate": "2015-08-10",
         "endDate": null,
-        "position": "IT Project Manager",
-        "company": "Executive Office of the President",
-        "website": "http://www.whitehouse.gov/omb",
-        "summary": "In the Budget Systems Branch of the Office of Management and Budget, I'm responsible for the development of our next generation data collection platform and its associated Java EE-based microservices that facilitates government-wide data collections and enable development of the President's Budget.  I make sure our 130,000+ users are happy and ensure that all the must-have features are complete within the impossible timelines allocated.  I'm also responsible for our UX design team, delivering style guidance, prototypes and coded front-end solutions across many of our 50+ web applications.  In addition, I manage a few other web apps, write lots of SQL, and improve our development and project management tools and processes.",
+        "position": "Director, Analytics and Research",
+        "company": "CSBS",
+        "website": "http://www.csbs.org",
+        "summary": "Responsible for a major overhaul of the business intelligence infrastructure of CSBS. Integrate multiple financial and survey data streams into a single seamless experience for CSBS members. Evaluate and integrate BI tools. Perform data analysis and create advanced interactive dashboarding solutions using the most advanced tools in the industry.",
         "highlights": []
     }, {
-        "startDate": "2013-06-02",
-        "endDate": null,
-        "position": "Data Scientist & Software Architect",
-        "company": "Kitchology Inc.",
-        "website": "http://www.kitchology.com",
-        "summary": "As part of the tech team at this small startup, I develop machine learning and data analysis algorithms for food and recipe science. I also wear any other hat needed, from server and database management to launch planning to business process and software architecture.",
+        "startDate": "2014-03-16",
+        "endDate": "2015-08-10",
+        "position": "Associate Director, Business Intelligence",
+        "company": "Latinum Network/Econet Ventures",
+        "website": "http://www.latinumnetwork.com",
+        "summary": "Oversee the creation of automated reporting tools for visualization and interpretation of data; Handle data warehousing projects for big data inside the company and for corporate clients; Devise and perform data analysis tasks.",
         "highlights": []
     }, {
-        "startDate": "2014-09-02",
-        "endDate": null,
-        "position": "Research Affiliate",
-        "company": "University of Maryland",
-        "website": "http://norbertwiener.umd.edu",
-        "summary": "I'm a research affiliate in the Norbert Wiener Center for Harmonic Analysis and Applications, housed in the Department of Mathematics. I occasionally collaborate with NWC staff on research in applications of harmonic analysis, mostly in the areas of machine learning, signal processing, and dimensionality reduction.",
+        "startDate": "2013-06-01",
+        "endDate": "2014-03-14",
+        "position": "Lead Technical Consultant",
+        "company": "DPMG",
+        "website": null,
+        "summary": "DPMG is a consultancy dealing with good governance of development projects around the world. I worked as a lead technical consultant, assisting in survey design, econometric analysis, financial and political risk assessment through on-site visits and forensic data science.",
         "highlights": []
     }, {
-        "startDate": "2009-03-02",
-        "endDate": "2012-03-29",
-        "position": "Hardy-Apfel IT Fellow (Computer Scientist)",
-        "company": "Social Security Administration",
-        "website": "http://www.socialsecurity.gov",
-        "summary": "In this rotational leadership development program, I impacted each major program the agency runs.  I led a research effort on health IT to improve disability claims processing, facilitated the development of the agency's strategic plan, developed communications for the agency CIO, led several web-based communications and full-stack development efforts in the Office of Open Government, and architected and wrote software to model effects of retirement program policy for the Office of Policy Analysis.",
+        "startDate": "2011-08-31",
+        "endDate": "2013-05-30",
+        "position": "Associate Professor",
+        "company": "Higher School of Economics, National Research University, St. Petersburg, Russia",
+        "website": "http://www.hse.ru",
+        "summary": "I taught Master's levels classes on statistical methodology, demography and basic game theory, including MCMC, machine learning and data mining. Worked with a team of international faculty to set up a modern research center in Saint Petersburg.",
         "highlights": []
     }, {
-        "startDate": "2006-05-22",
-        "endDate": "2009-02-28",
-        "position": "DSP Analyst & Software Engineer",
-        "company": "BAE Systems",
-        "website": "http://www.baesystems.com",
-        "summary": "In the Sensor Systems division's Advanced Technologies group, I developed software and associated mathematics and algorithms for DARPA-funded research projects using such technologies as VLF controlled-source EM sensing, tomography, compressed sensing, GPS tracking, and noise reduction.",
+        "startDate": "2007-09-01",
+        "endDate": "2011-08-30",
+        "position": "Graduate Student Instructor and Research Fellow",
+        "company": "University of Michigan, Ann Arbor",
+        "website": "http://www.umich.edu",
+        "summary": "During the 3.5 years I worked on my Ph.D., I also served as a research fellow and graduate student instructor, holding lectures in front of classes of up to 500 students",
         "highlights": []
     }, {
         "startDate": "2004-06-02",
         "endDate": "2006-05-19",
-        "position": "Graduate Assistant",
-        "company": "University of Maryland, Office of IT",
-        "website": "http://www.baesystems.com",
-        "summary": "In the Office of Learning Technologies, I wrote and installed software and built platforms to enable the use of collaborative learning tools in courses. In addition, I taught classes on programming in MATLAB to undergraduate and graduate students from across the university.",
+        "position": "World Bank Consultant, Quality Assurance Group",
+        "company": "The World Bank",
+        "website": "www.worldbank.org/",
+        "summary": "I came in at the World Bank as an expert on good governance, anti-corruption best practices, and data analytics, and was quickly placed in a high responsibility poisition as part of a team doing on-site assessments of troubled projects around the world.",
         "highlights": []
     }],
     "education": [{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Doctor of Philosophy (candidate, all but dissertation)",
-        "area": "Applied Mathematics, Applied Statistics and Scientific Computing",
+        "institution": "University of Michigan, Ann Arbor, MI",
+        "studyType": "Doctor of Philosophy",
+        "area": "Political Science Methodology, Complex Systems Group",
         "startDate": "2007-09-01",
-        "endDate": "2014-06-02",
+        "endDate": "2011-06-02",
         "courses": [
             "AMSC898 Pre-dissertation Research",
             "AMSC899 Dissertation Research"
         ]
     },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Master of Science",
-        "area": "Applied Mathematics and Scientific Computing",
+        "institution": "Harvard University",
+        "studyType": "Bachelor of Arts",
+        "area": "Government and Statistical Methodology",
         "startDate": "2003-09-01",
-        "endDate": "2007-12-31",
+        "endDate": "2007-05-31",
         "courses": [
             "AMSC663 Advanced Scientific Computing I",
             "AMSC664 Advanced Scientific Computing II",
@@ -151,102 +123,7 @@
             "ENEE425 Digital Signal Processing",
             "AMSC452 Intro to Dynamics & Chaos",
             "AMSC466 Intro to Numerical Anaylsis I"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Graduate Certificate",
-        "area": "Scientific Computing",
-        "startDate": "2003-09-01",
-        "endDate": "2007-07-31",
-        "courses": [
-            "AMSC660 Scientific Computing I",
-            "AMSC661 Scientific Computing II",
-            "AMSC662 Computer Organization & Programming for Scientific Computing",
-            "ENEE630 Advanced Digital Signal Processing"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Graduate Certificate",
-        "area": "Computational Harmonic Analysis",
-        "startDate": "2003-09-01",
-        "endDate": "2007-07-31",
-        "courses": [
-            "MAIT623 Mathematical Methods for Signal Processing I",
-            "MAIT624 Mathematical Methods for Signal Processing II",
-            "MAIT633 Applied Fourier Analysis",
-            "MAIT79F Special Topics: Frame Theory & Applications"
-        ]
-    },{
-        "institution": "University of Maryland at College Park",
-        "studyType": "Executive Education Certificate (non-credit)",
-        "area": "Innovation Management",
-        "startDate": "2010-01-02",
-        "endDate": "2010-05-31",
-        "courses": [
-            "Strategies for Managing Innovation",
-            "Negotiation Techniques",
-            "Marketing in Technology-Driven Industries",
-            "Innovative Product Design & Development",
-            "Introduction to Finance"
-        ]
-    },{
-        "institution": "Loyola University New Orleans",
-        "studyType": "Bachelor of Science",
-        "area": "Mathematics and Computer Science, minor in Japanese Studies",
-        "startDate": "1997-09-01",
-        "endDate": "2001-05-22",
-        "courses": [
-            "MATH-A200 Intro to Linear Algebra",
-            "MATH-A204 Discrete Math Structures",
-            "MATH-A257 Calculus I",
-            "MATH-A258 Calculus II",
-            "MATH-A270 Mathematical Foundations of Computer Science",
-            "MATH-A330 Theory of Numbers",
-            "MATH-A340 Mathematical Probability",
-            "MATH-A341 Statistical Theory & Methods",
-            "MATH-A400 Abstract Algebra I",
-            "MATH-A410 Advanced Calculus I",
-            "MATH-A411 Advanced Calculus II",
-            "MATH-A498 Research Project",
-            "COSC-A210 Programming & Problem Solving",
-            "COSC-A215 Fundamental Data Structures",
-            "COSC-A216 Fundamentals of Software Development",
-            "COSC-A270 Intro to Visual Databases",
-            "COSC-A275 Languages & Processors",
-            "COSC-A280 Intro to Computer Graphics",
-            "COSC-A360 Operating Systems & Environments",
-            "COSC-A363 Algorithms & Software Development",
-            "COSC-A375 Numerical Algorithms",
-            "COSC-A451 Software Engineering",
-            "COSC-A470 Communication Systems & Networks",
-            "COSC-A493 Data Warehousing/Data Mining",
-            "JPNS-A100 Modern Japanese I",
-            "JPNS-A101 Modern Japanese II",
-            "JPNS-U150 Premodern Japanese Culture",
-            "JPNS-V151 Culture in Early Modern Japan",
-            "JPNS-A294 Japanese Animation",
-            "JPNS-A300 Japanese Conversation & Composition",
-            "JPNS-A494 Japanese Conversation & Composition II",
-            "RELS-T122 Intro to World Religions",
-            "RELS-U133 Zen I",
-            "RELS-A499 Confucian Traditions",
-            "PHYS-A110 Basic Physics I",
-            "PHYS-A112 Physics I Lab",
-            "PHYS-A111 Basic Physics II",
-            "PHYS-A113 Physics II Lab",
-            "PHYS-Z130 Faith, Science & Religion",
-            "HIST-T122 World Civilization to 1650",
-            "HIST-T124 World Civilization from 1650",
-            "ENGL-U195 Legend of Robin Hood",
-            "PHIL-T122 Intro to Philosophy",
-            "PHIL-V180 Freedom & Oppression",
-            "PHIL-V135 Philosophy of Right",
-            "POLS-X158 Global Political Issues",
-            "MUPR-M112 Cello",
-            "MUPR-M118 Training Orchestra",
-            "MUPR-M117 Symphony Orchestra",
-            "MUEN-M100 Symphony Orchestra"
-        ]
+        ]}
     }],
     "publications": [{
         "name": "Agile - Where is the Greatest Value",
